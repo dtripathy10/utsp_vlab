@@ -1,0 +1,11 @@
+ul.question_form li {
+        list-style-type: decimal;
+        margin-left: 30px;
+        line-height: 20px; 
+        margin-bottom: 20px;
+ }
+ .question {
+ 	font-weight: bold;
+ 	line-height: 30px;
+ 	font-size: 14px;
+ }

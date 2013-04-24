@@ -1,0 +1,72 @@
+.zoom_plus, .zoom_minus{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/zoom.png');
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+}
+.zoom{
+	position: absolute;
+	top: 155px;
+	right: 20px;
+	z-index: 10;
+} 
+.zoom_plus{
+	background-position: -30px 0px;
+}
+.zoom_minus{
+	background-position: -30px -30px;
+}
+.zoom_plus:hover{
+	background-position: 0px 0px;
+}
+.zoom_minus:hover{
+	background-position: 0px -30px;
+}
+img {
+	border:0px;
+}
+
+#contact {
+	padding-bottom: 0px;
+	margin:0px 0px 0px 0px;
+  	overflow:hidden;
+  	position: relative;
+	height:380px;
+	width: 100%;
+}
+#contact .inner {
+	position:relative;
+	top:0px;
+	width:1024px;
+	height:380px;
+	margin-right: 810px;
+
+}
+#contact .inner .img {
+	
+}
+#map_canvas {
+		height: 380px; width:1024px;
+}
+#contact .inner .block {
+	position:relative;
+	width:940px;
+	height:380px;
+	margin:0px auto;
+}
+#contact .inner .block div {
+	display:table-cell;
+	height:380px;
+	vertical-align:middle;
+}
+#contact .inner h2 {
+	position:absolute;
+	left:390px;
+	top:196px;
+	border-bottom:8px solid #400000 ;
+	color:#400000;
+	z-index:12;
+}
+

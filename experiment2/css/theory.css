@@ -1,0 +1,24 @@
+ p {
+    text-indent: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .table th {
+    text-align: center;   
+  }
+  .table td {
+    text-align: center;   
+  }
+  caption {
+    caption-side: top;
+    color: #DC143C;
+  }
+  ul.test li {
+        list-style-type: disc;
+        margin-left: 30px;
+        line-height: 30px;
+       
+      }
+      ul.test {
+         margin-top: 5px;
+      }
