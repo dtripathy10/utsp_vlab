@@ -27,8 +27,7 @@
       <li class="t1"><span><a href="../experiment9/aim.php">Mode Split</a></span></li>
       <li><span><span>Trip Assignment:</span><a href="../experiment10/aim.php">All or Nothing (AON) Assignment</a></span></li>
       <li><span><span>Trip Assignment:</span><a href="../experiment11/aim.php">User Equilibrium Assignment</a></span></li>
-      <li><span><span>Trip Assignment:</span><a href="../experiment12/aim.php">System Optimal Assignment</a></span></li>
-      <li class="t1"><span><span>Trip Assignment:</span><a href="../experiment13/aim.php">Stochastic User Equilibrium</a></span></li>
+      <li class="t1"><span><span>Trip Assignment:</span><a href="../experiment12/aim.php">System Optimal Assignment</a></span></li>
     </ul>
   </div>
 <?php

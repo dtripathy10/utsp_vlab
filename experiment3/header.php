@@ -36,17 +36,8 @@ function getHeader($id) {
 	<?php
 	switch($id) {
 		case 1:
+    printNavbar();
 			?>
-			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Category Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -73,16 +64,7 @@ function getHeader($id) {
 		case 2:
 			?>
         <link href="css/theory.css" rel="stylesheet" type="text/css" />
-			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Category Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+			 <?php printNavbar();?>
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -107,18 +89,9 @@ function getHeader($id) {
 			<?php
 			break;
 		case 3:
+    printNavbar();
 			?>
 
-			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Category Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -143,17 +116,8 @@ function getHeader($id) {
 			<?php
 			break;
 		case 4:
+    printNavbar();
 			?>
-			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Category Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -178,17 +142,8 @@ function getHeader($id) {
 			<?php
 			break;
 		case 5:
+    printNavbar();
 			?>
-			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Category Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -215,16 +170,7 @@ function getHeader($id) {
 			case 6:
 			?>
        <link href="css/self_eval.css" rel="stylesheet" type="text/css" />
-			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Category Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+			 <?php printNavbar();?>
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -252,3 +198,15 @@ function getHeader($id) {
 
 }
 ?>
+
+<?php function printNavbar() {
+?>
+<body>
+        <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Category Analysis</a><span>Trip Generation</span></h1>
+        </div>
+         <div id="navbar">
+<?php
+}?>

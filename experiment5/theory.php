@@ -6,7 +6,7 @@
 --> 
 <?php
   include_once("header.php");
-  getHeader(2);
+  getHeader(2,"Singly constrained Gravity Model","Trip Distribution");
 ?> 
   <div id="body">
     <h1 class="designation">Theory</h1>

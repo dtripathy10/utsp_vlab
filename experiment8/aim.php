@@ -8,7 +8,7 @@
 
 <?php
   include_once("header.php");
-  getHeader(1);
+  getHeader(1,"Calibration of Doubly Constrained Gravity Model","Trip Distribution");
 ?> 
  
 	<div id="body">

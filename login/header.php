@@ -71,14 +71,10 @@ function getHeader($id,$title) {
           </div> -->
 
     <div id="top_container">
-    <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+     <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">
@@ -108,13 +104,9 @@ function getHeader($id,$title) {
   <body>
     <div id="top_container">
     <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
   
       <div class="row">
         <div class="span6">
@@ -148,14 +140,10 @@ function getHeader($id,$title) {
           </div> -->
 
     <div id="top_container">
-    <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+     <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">
@@ -186,15 +174,11 @@ function getHeader($id,$title) {
     <script type="text/javascript" src="../scripts/map.js"></script>
          </head>
   <body>
-    <div id="top_container">
-    <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+     <div id="top_container">
+   <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">
@@ -223,14 +207,10 @@ function getHeader($id,$title) {
   <body>
 
     <div id="top_container">
-    <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+     <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">
@@ -264,13 +244,9 @@ function getHeader($id,$title) {
 
     <div id="top_container">
     <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">
@@ -303,14 +279,10 @@ function getHeader($id,$title) {
           </div> -->
 
     <div id="top_container">
-    <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+     <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">
@@ -338,14 +310,10 @@ function getHeader($id,$title) {
  </head>
   <body>
     <div id="top_container">
-    <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+     <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">
@@ -378,14 +346,10 @@ function getHeader($id,$title) {
           </div> -->
 
     <div id="top_container">
-    <div id="header">
-          <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          <a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          <a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      <div  class="brand">
-      <h1><a href="index.php">Urban Transportation Systems Planning Lab</a><span class="caption">IIT Bombay</span></h1>
-    </div>
+     <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+  </div>
+ <div id="navbar">
     <div class="row">
         <div class="span6">
           <ul id="menu-bar">

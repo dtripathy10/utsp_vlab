@@ -18,10 +18,10 @@
 */
 function getFooter($id) {
 ?>
+      <a  href="#" class="scrollup"></a>
   <div class="footer">
     <hr/>
-    <em class="text-error">Last updated in 05/2013.</em>
-    
+    <em>Last updated in <span class="muted"><?php echo date('jS \of F Y h:i:s A');?></span></em>
     <ul>
       <li><a href="signup.php">Sign Up</a></li>
         <li><a href="login.php">Login</a><span class="vline"/></li>

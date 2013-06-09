@@ -38,15 +38,12 @@ function getHeader($id) {
 		case 1:
 			?>
 			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-             <h1><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+        <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -79,15 +76,12 @@ function getHeader($id) {
   <script type="text/javascript" src="../mathjax-MathJax-24a378e/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <link href="css/theory.css" rel="stylesheet" type="text/css" />
 			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -115,15 +109,12 @@ function getHeader($id) {
 			?>
 
 			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -150,15 +141,12 @@ function getHeader($id) {
 		case 4:
 			?>
 			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      			<h1><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -185,15 +173,12 @@ function getHeader($id) {
 		case 5:
 			?>
 			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -219,17 +204,13 @@ function getHeader($id) {
 			break;
 			case 6:
 			?>
-       <link href="css/self_eval.css" rel="stylesheet" type="text/css" />
 			 <body>
-  				<div id="top_container">
-  				<div id="header">
-          		<a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          		<a href="http://mhrd.gov.in/"><img class="logo" src="../images/logo.png"/></a>
-          		<a href="http://www.vlab.co.in/"><img class="logo" src="../images/vlab.png"/></a>
-          		<a href="../login/index.php"><img class="logo" src="../images/utsp.png"/></a>
-      			<div  class="brand">
-      				<h1><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
-    			</div>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">

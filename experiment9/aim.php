@@ -7,7 +7,7 @@
   
   <?php
   include_once("header.php");
-  getHeader(1);
+  getHeader(1,"Mode Split");
 ?> 
 	<div id="body">
     <h1 class="designation">Aim</h1>

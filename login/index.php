@@ -18,12 +18,12 @@
       <div id="this-carousel-id" class="carousel slide">
         <div class="carousel-inner">
           <div class="item active">
-                <img src="../images/workshop1.png" alt="Address" />
+                <img src="../images/workshop2.jpg" alt="Address" />
     
 
           </div>
           <div class="item">
-            <img src="../images/workshop1.png" alt="Address" />
+            <img src="../images/workshop1.jpg" alt="Address" />
             <!-- <div class="carousel-caption">
               <span>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</span>
               <a class="btn btn-primary" href="#">Register for workshop</a>

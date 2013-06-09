@@ -8,7 +8,7 @@
 <?php
   include_once("header.php");
   include_once("../util/self_eval.php");
-  getHeader(6);
+  getHeader(6,"All or Nothing (AON) Assignment","Trip Assignment");
 ?> 
   <div id="body">
     <h1 class="designation">Self Evaluation</h1>

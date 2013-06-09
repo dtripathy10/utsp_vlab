@@ -6,7 +6,7 @@
 --> 
 <?php
   include_once("header.php");
-  getHeader(3);
+  getHeader(3,"Calibration of Singly Constrained Gravity Model","Trip Distribution");
 ?> 
   <div id="body">
     

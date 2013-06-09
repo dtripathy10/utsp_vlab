@@ -7,7 +7,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(2);
+  getHeader(2,"Stochastic User Equilibrium","Trip Assignment");
 ?> 
 <div id="body">
 <h1 class="designation">Theory</h1>

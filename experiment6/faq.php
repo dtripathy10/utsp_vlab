@@ -6,14 +6,8 @@
 --> 
 <?php
   include_once("header.php");
-  getHeader(5);
+  getHeader(5,"Doubly constrained Gravity Model","Trip Distribution");
 ?> 
-
-	<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
-  </script>
-<script type="text/javascript" src="../mathjax-MathJax-24a378e/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   <div id="body">
     <h1 class="designation">FAQs</h1>

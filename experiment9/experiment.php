@@ -9,7 +9,7 @@
  <?php
   include_once("../util/system.php");
   include_once("header.php");
-  getHeader(4);
+  getHeader(4,"Mode Split");
 ?> 
 
 <div id="body">

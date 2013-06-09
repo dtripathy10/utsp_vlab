@@ -6,7 +6,7 @@
 --> 
 <?php
   include_once("header.php");
-  getHeader(3);
+  getHeader(3,"Growth Factor Distribution Model","Trip Distribution");
 ?> 
   <div id="body">
     

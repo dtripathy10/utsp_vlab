@@ -35,7 +35,7 @@
 </tr>
 
           </table>
-          <span class="x">Gross classification no. of households is:</span>
+          <span>Gross classification no. of households is:</span>
           <table class="table table-bordered table-hover">
             <caption>Car ownership</caption>
                  <tr class="success">
@@ -55,7 +55,7 @@
 </tr>
 
           </table>
-          <span class="x">Total number of trips produced in the zone with household size 4andcar ownership 1 is T = 1.74*100 = 174 trips</span>
+          <span>Total number of trips produced in the zone with household size 4andcar ownership 1 is T = 1.74*100 = 174 trips</span>
   </div>
 <?php
   include_once("footer.php");

@@ -7,7 +7,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(2);
+  getHeader(2,"System Optimal Assignment","Trip Assignment");
 ?> 
 <div id="body">
 <h1 class="designation">Theory</h1>
@@ -38,7 +38,7 @@ $$\nonumber x_a\ \geqslant 0\ \:\ a\epsilon A$$
 <br>
 <span class="title">Example</span>
 <p>To demonstrate how the most common assignment works, an example network is considered. This network has two nodes having two paths as links.</p>
-<p><img style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" title="Figure 2 Diagram" src="images/exp10.1.jpg" alt="Figure 1" width="489" height="270" /></p>
+<p><img style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" title="Figure 2 Diagram" src="img/exp10.1.jpg" alt="Figure 1" width="489" height="270" /></p>
 <p>Lets take a case where travel time functions for both the links is given by: </p>
 <p>$t_1=10+3x_1$</p>
 <p>$t_2=15+2x_2$</p>
@@ -57,7 +57,7 @@ $$\nonumber x_a\ \geqslant 0\ \:\ a\epsilon A$$
 <li>If the traffic is assigned as per SO, the system travel cost will not increase with the addition of a link.</li>
 </ul>
 <span class="title1">Example </span>
-<p><img style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" title="Diagram" src="images/bp1.jpg" alt="Diagram" width="489" height="270" /></p>
+<p><img style="vertical-align: middle; display: block; margin-left: auto; margin-right: auto;" title="Diagram" src="img/bp1.jpg" alt="Diagram" width="489" height="270" /></p>
 <p><strong>UE Formulation</strong></p>
 <p>$50+x_1+10x_3=50+x_4+10x_2$</p>
 <p>$Path\ 1\ =\ R - 1 - 5$</p>

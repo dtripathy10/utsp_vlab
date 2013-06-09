@@ -7,7 +7,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(5);
+  getHeader(5,"Singly constrained Gravity Model","Trip Distribution");
 
 ?> 
   <script type="text/x-mathjax-config">

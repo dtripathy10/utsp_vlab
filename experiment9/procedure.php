@@ -7,7 +7,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(3);
+  getHeader(3,"Mode Split");
 ?> 
   <div id="body">
     

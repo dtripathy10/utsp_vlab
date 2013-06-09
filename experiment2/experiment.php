@@ -7,41 +7,35 @@
 -->	
 
  <?php
-  include_once("../util/system.php");
   include_once("header.php");
   getHeader(4);
 ?> 
-
+<p><script language="JavaScript"> 
+function fullScreen1(theURL) { 
+	 var width=screen.availWidth-20;//screen.width;
+	 var height=screen.availHeight-70;//screen.height;
+	 theURL= theURL + "?width="+ width + "&height=" + height;
+	 window.open(theURL, 'windowName', 'fullscreen=yes,scrollbars=yes,resizable=no,menubar=yes,titlebar=yes,toolbar=yes'); 
+} 
+</script>
 <div id="body">
 <span class="title">Experiment</span>
-<p><span class="title1"><a href="CatAnalysisMod.php" style="text-decoration: underline;">Click Here to Perform Experiment with PHP based Simulation</a></span></p>
-<span class="title">See the default Excel / CSV input files for file format:</span>
-<table class="table table-bordered ">
+<p><span class="title1"><a href="javascript:void(0);" onClick="fullScreen1('DataAnalysis1.php')";><strong> <span style="text-decoration: underline;">Click Here</span> To Perform Experiment with JAVA based Simulation</strong></a></p>
+<!-- <p><a href="javascript:void(0);" onClick="fullScreen('checkprerequisite.php')";><span style="color:#FF0000;">( Click to check your system settings to execute above simulation )</span></a></p>
+<br> -->
+<p><span class="title1"><a href="DataRegrMod.php"><strong> <span style="text-decoration: underline;">Click Here</span> To Perform Experiment with PHP based Simultation</strong></a></span>
+</span></p>
+<br>
+<span class="title">See the default Excel / CSV input files for file format:</b></span>
+<p>Download &amp; Save the file on your computer to perform experiment.</p>
+<table class="table">
+<tbody>
 <tr>
-<th >Download &amp; Save each of these files to perform experiment.</th>
-<th >Click on the icon </span>to download &amp; Save all XLS/CSV files in zip format.</th>
+<td style="padding-left: 60px;"><a href="Docs/pune.xls"><img src="img/SmallXLS.jpg" alt="Excel" />&nbsp;<strong>(Click Here) for Input File (xls)</a></strong></td>
+<td style="padding-left: 60px;"><a href="Docs/punecsv.csv"><img src="img/SmallCSV.jpg" alt="CSV" />&nbsp;<strong>(Click Here) for Input File (csv)</a></strong></td>
 </tr>
-<tr>
-<td>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey_old.xls"><img src="img/SmallXLS.jpg" alt="Excel" />(Click Here) Observed Socio-economic Data File (xls)</span></a>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey.xls"><img src="img/SmallXLS.jpg" alt="Excel" />(Click Here) Forecasted Socio-economic Data File (xls)</span></a>
-</td>
-<td align="center" valign="top">
-<span class="title1">All XLS Files in zip format</span>
-<p><a href="<?php echo DOC_FOLDER;?>/CategoryAnalysis.zip"><img style="display: block; margin-left: auto; margin-right: auto;" src="img/XLS.JPG" alt="Excel"/></a></p>
-</td>
-</tr>
-<td>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey_old.csv"><img src="img/SmallCSV.jpg" alt="CSV"/>(Click Here) Observed Socio-economic Data File (csv)</span></a>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey.csv"><img src="img/SmallCSV.jpg" alt="CSV"/> (Click Here) Forecasted Socio-economic Data File (csv) </span></a>
-</td>
-<td align="center" valign="top">
-<span class="title1">All CSV Files in zip format</span>
-<p><a href="<?php echo DOC_FOLDER;?>/CategoryAnalysisCSV.zip"><img style="display: block; margin-left: auto; margin-right: auto;" src="img/CSV.JPG" alt="CSV"/></a></p>
-</td>
-</tr>
+</tbody>
 </table>
-
 </div>
 <?php
   include_once("footer.php");
