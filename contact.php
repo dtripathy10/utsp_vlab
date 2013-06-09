@@ -1,14 +1,40 @@
-<!--
-    Author:		Debabrata Tripathy, IIT Bombay, Mumbai
-    Mail ID:	dtriapthy10@gmail.com
-    Website:	http://home.iitb.ac.in/~debabratatripathy/
-    Phone No:	9004499484
--->	
 <?php
 include_once("header.php");
 getHeader(4, "Contact Us | UTSP VLab");
 ?>
-
+<head>
+<script language="javascript">
+function chk1()
+{
+	
+	if (document.contact.inputName.value == "")
+	{
+		alert("Please insert your name!!!");
+		document.contact.inputName.focus();
+		return false ;
+	}
+	if (document.contact.inputEmail.value == "")
+	{
+		alert("Please insert your email!!!");
+		document.contact.inputEmail.focus();
+		return false ;
+	}
+	if (document.contact.inputTitle.value == "")
+	{
+		alert("Please insert the title!!!");
+		document.contact.inputTitle.focus();
+		return false ;
+	}
+	if (document.contact.inputMessage.value == "")
+	{
+		alert("Please insert your message!!!");
+		document.contact.inputMessage.focus();
+		return false ;
+	}
+	document.contact.action="sendquerymail.php";
+}
+</script>
+</head>
 <div id="contact">
    <div class="zoom">
       <a class="zoom_plus" href="#"></a>
@@ -40,34 +66,34 @@ getHeader(4, "Contact Us | UTSP VLab");
          <h1 >Contact Us</h1>
       </div>
       <div class="span8 pull-left">
-         <form >
+         <form enctype="multipart/form-data" method="post" name="contact">
             <div class="control-group">
-               <label class="control-label" for="inputEmail">Name<span class="text-error">*</span></label>
+               <label class="control-label" for="inputName">Name<span class="text-error">*</span></label>
                <div class="controls">
-                  <input class="input-xlarge" style="height: 30px;" type="text" placeholder="Name">
+                  <input class="input-xlarge" style="height: 30px;" type="text" placeholder="Name" name="inputName">
                </div>
             </div>
             <div class="control-group">
                <label class="control-label" for="inputEmail">Email<span class="text-error">*</span></label>
                <div class="controls">
-                  <input class="input-xlarge" style="height: 30px;" type="text" placeholder="Email*">
+                  <input class="input-xlarge" style="height: 30px;" type="text" placeholder="Email*" name="inputEmail">
                </div>
             </div>
 
             <div class="control-group">
-               <label class="control-label" for="inputEmail">Title<span class="text-error">*</span></label>
+               <label class="control-label" for="inputTitle">Title<span class="text-error">*</span></label>
                <div class="controls">
-                  <input class="input-xlarge span6" style="height: 30px;" type="text" placeholder="Title*">
+                  <input class="input-xlarge span6" style="height: 30px;" type="text" placeholder="Title*" name="inputTitle">
                </div>
             </div>
             <div class="control-group">
-               <label class="control-label" for="inputEmail">Messages<span class="text-error">*</span></label>
+               <label class="control-label" for="inputMessage">Messages<span class="text-error">*</span></label>
                <div class="controls">
-                  <textarea ows="6"></textarea>
+                  <textarea rows="6" name="inputMessage"></textarea>
                </div>
             </div>
             <div class="control-group">
-                <button class="pull-right" type="button" style="margin-right:40px;">Send</button>
+               <button class="pull-right button" type="submit"  style="margin-right:40px;"  OnClick="return chk1()">Send</button>
                <span class="pull-left text-error">* required fields</span>
 
             </div>
