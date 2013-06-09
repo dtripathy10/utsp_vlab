@@ -16,13 +16,14 @@
 
 */
 
-function getHeader($id) {
+
+function getHeader($id,$name,$stage) {
 ?>
 			<!DOCTYPE html>
 			<html>
   				<head>
     				<!-- le title -->
-  					<title>Trip Generation | UTSP VLab</title>
+  					<title><?php echo $name.$stage;?></title>
     				<link rel="icon" href="../images/iitb.ico" type="image/x-icon" />
     				<!-- le CSS -->
         			<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -36,8 +37,14 @@ function getHeader($id) {
 	<?php
 	switch($id) {
 		case 1:
-    printNavbar();
 			?>
+			 <body>
+        <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -63,8 +70,19 @@ function getHeader($id) {
 			break;
 		case 2:
 			?>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+  </script>
+  <script type="text/javascript" src="../mathjax-MathJax-24a378e/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <link href="css/theory.css" rel="stylesheet" type="text/css" />
-			 <?php printNavbar();?>
+			 <body>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -89,9 +107,15 @@ function getHeader($id) {
 			<?php
 			break;
 		case 3:
-    printNavbar();
 			?>
 
+			 <body>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php">Regression Analysi</a><span class="caption"><?php echo $stage;?></span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -116,8 +140,14 @@ function getHeader($id) {
 			<?php
 			break;
 		case 4:
-    printNavbar();
 			?>
+			 <body>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -142,8 +172,14 @@ function getHeader($id) {
 			<?php
 			break;
 		case 5:
-    printNavbar();
 			?>
+			 <body>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -169,8 +205,13 @@ function getHeader($id) {
 			break;
 			case 6:
 			?>
-       <link href="css/self_eval.css" rel="stylesheet" type="text/css" />
-			 <?php printNavbar();?>
+			 <body>
+  				 <div id="top_container">
+          <div id="header">
+           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
+        </div>
+         <div id="navbar">
   				<div class="row">
         			<div class="span8">
           				<ul id="menu-bar">
@@ -197,16 +238,7 @@ function getHeader($id) {
 	}
 
 }
+function($id) {
+  getHeader($id,"","");
+}
 ?>
-
-<?php function printNavbar() {
-?>
-<body>
-        <div id="top_container">
-          <div id="header">
-           <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Category Analysis</a><span>Trip Generation</span></h1>
-        </div>
-         <div id="navbar">
-<?php
-}?>

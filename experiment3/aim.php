@@ -6,7 +6,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(1);
+  getHeader(1,"Catagory Analysis","Trip Generatrion");
 ?> 
 
 

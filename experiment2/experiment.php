@@ -8,7 +8,7 @@
 
  <?php
   include_once("header.php");
-  getHeader(4);
+  getHeader(4,"Regression Analysis","Trip Generatrion");
 ?> 
 <p><script language="JavaScript"> 
 function fullScreen1(theURL) { 

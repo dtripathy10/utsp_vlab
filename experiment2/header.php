@@ -16,13 +16,14 @@
 
 */
 
-function getHeader($id) {
+
+function getHeader($id,$name,$stage) {
 ?>
 			<!DOCTYPE html>
 			<html>
   				<head>
     				<!-- le title -->
-  					<title>Trip Generation | UTSP VLab</title>
+  					<title><?php echo $name.$stage;?></title>
     				<link rel="icon" href="../images/iitb.ico" type="image/x-icon" />
     				<!-- le CSS -->
         			<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -41,7 +42,7 @@ function getHeader($id) {
         <div id="top_container">
           <div id="header">
            <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
         </div>
          <div id="navbar">
   				<div class="row">
@@ -79,7 +80,7 @@ function getHeader($id) {
   				 <div id="top_container">
           <div id="header">
            <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
         </div>
          <div id="navbar">
   				<div class="row">
@@ -112,7 +113,7 @@ function getHeader($id) {
   				 <div id="top_container">
           <div id="header">
            <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+          <h1 class="title_header"><a href="aim.php">Regression Analysi</a><span class="caption"><?php echo $stage;?></span></h1>
         </div>
          <div id="navbar">
   				<div class="row">
@@ -144,7 +145,7 @@ function getHeader($id) {
   				 <div id="top_container">
           <div id="header">
            <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
         </div>
          <div id="navbar">
   				<div class="row">
@@ -176,7 +177,7 @@ function getHeader($id) {
   				 <div id="top_container">
           <div id="header">
            <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
         </div>
          <div id="navbar">
   				<div class="row">
@@ -208,7 +209,7 @@ function getHeader($id) {
   				 <div id="top_container">
           <div id="header">
            <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Regression Analysis</a><span class="caption">Trip Generation</span></h1>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
         </div>
          <div id="navbar">
   				<div class="row">
@@ -236,5 +237,8 @@ function getHeader($id) {
 			break;
 	}
 
+}
+function($id) {
+  getHeader($id,"","");
 }
 ?>

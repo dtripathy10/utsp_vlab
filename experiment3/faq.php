@@ -7,7 +7,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(5);
+  getHeader(5,"Catagory Analysis","Trip Generatrion");
 ?> 
 	<div id="body">
         <h1 class="designation">FAQs</h1>

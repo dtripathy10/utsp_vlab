@@ -6,7 +6,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(5);
+  getHeader(5,"Regression Analysis","Trip Generatrion");
 ?> 
  
 	<div id="body">

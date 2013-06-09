@@ -8,7 +8,7 @@
 <!-- =============================================== -->
 <?php
   include_once("header.php");
-  getHeader(2);
+  getHeader(2,"Regression Analysis","Trip Generatrion");
 ?> 
 <div id="body">
   <h1 class="designation">Theory</h1>

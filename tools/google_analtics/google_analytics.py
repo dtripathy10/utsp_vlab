@@ -8,8 +8,8 @@ import os
 Declaring all constant
 
 '''
-ADD = 'google_analytics.txt'
-DELETE = 'google_analytics.txt'
+ADD = 'new_google_analytics.txt'
+DELETE = 'old_google_analytics.txt'
 
 '''
     reading google analytics file which to be replaced
