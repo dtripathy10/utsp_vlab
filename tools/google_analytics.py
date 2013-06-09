@@ -1,7 +1,21 @@
 import os
+'''
+    Author: Debabrata Tripathy
+    Mail:   dtripathy10@gmail.com
 
-def readgoogle_analytics():
-    fh = open("google_analytics.txt", "r");
+'''
+''''
+Declaring all constant
+
+''''
+ADD = "google_analytics.txt"
+DELETE = "google_analytics.txt"
+
+'''
+    reading google analytics file which to be replaced
+'''
+def readgoogle_analytics(file):
+    fh = open(file, "r");
     data = ''
     while 1:
         line = fh.readline()
@@ -9,13 +23,15 @@ def readgoogle_analytics():
         if not line:
             break
     fh.close();
-    return data
+    return data.strip()
 
-
-def add_google_analytics(file):
-    data = readgoogle_analytics();
+'''
+    add google anlytics string to a file
+'''
+def add_google_analytics_perfile(file):
+    data = readgoogle_analytics(ADD);
     beforeread = '';
-    fh = open("footer.php", "r");
+    fh = open(file, "r");
     while 1:
         line = fh.readline()
         if not line:
@@ -24,10 +40,34 @@ def add_google_analytics(file):
             beforeread+=data
         beforeread+=line
     fh.close();
-    text_file = open("footer.php", "w")
+    text_file = open(file, "w")
     text_file.write(beforeread)
     text_file.close()
 
+'''
+    delete google anlytics string in a file
+'''
+def delete_google_analytics_perfile(file):
+    data = readgoogle_analytics(DELETE);
+    beforeread = '';
+    fh = open(file, "r");
+    while 1:
+        line = fh.readline()
+        if not line:
+            break
+        beforeread+=line
+    fh.close();
+    # check a substr
+    beforeread = beforeread.replace(data.strip(), "");
+    text_file = open(file, "w")
+    text_file.write(beforeread)
+    text_file.close()
+
+'''
+    traverse the directory and if it contain footer.php
+    then, find if it contain google analytics, then delete and insert new
+    analytics
+'''
 def traverse(dir):
     list = [];
     for name in os.listdir(dir):
@@ -39,8 +79,16 @@ def traverse(dir):
         if os.path.isdir(name):
             print(name+"/");
         else:
-            add_google_analytics(name);
+            delete_google_analytics_perfile(name);
+            add_google_analytics_perfile(name);
+            
 '''
-mian function start here
+main function start here
 '''
-traverse('H:/wamp/www/utsp_vlab/');
+def main():
+    projectdir = 'H:/wamp/www/utsp_vlab/'
+    traverse(projectdir);
+    print 'completed.........'
+
+if __name__ == "__main__":
+    main()
