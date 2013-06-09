@@ -7,9 +7,9 @@ import os
 ''''
 Declaring all constant
 
-''''
-ADD = "google_analytics.txt"
-DELETE = "google_analytics.txt"
+'''
+ADD = 'google_analytics.txt'
+DELETE = 'google_analytics.txt'
 
 '''
     reading google analytics file which to be replaced
@@ -77,8 +77,9 @@ def traverse(dir):
     list = filter(lambda s: os.path.isdir(s) or s.endswith('footer.php'), list)
     for name in list:
         if os.path.isdir(name):
-            print(name+"/");
+            traverse(name+"/")
         else:
+            print(name);
             delete_google_analytics_perfile(name);
             add_google_analytics_perfile(name);
             
