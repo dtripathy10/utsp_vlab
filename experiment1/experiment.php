@@ -20,7 +20,7 @@ function fullScreen(theURL) {
 
 <div id="body">
 <h1 class="designation">Experiment</h1>
-<p><span style="font-family: verdana,geneva; font-size: medium;"><a href="javascript:void(0);" onClick="fullScreen('T-sectionSimulation1.php')"><strong> <span style="text-decoration: underline;">Click Here</span> To Perform Experiment</strong></a></p>
+<p><span style="font-family: verdana,geneva; font-size: medium;"><a href="javascript:void(0);" onClick="fullScreen('applet/T-sectionSimulation1.php')"><strong> <span style="text-decoration: underline;">Click Here</span> To Perform Experiment</strong></a></p>
 </div>
 <?php
   include_once("footer.php");

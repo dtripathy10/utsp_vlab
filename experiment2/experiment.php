@@ -1,14 +1,6 @@
-
-<!--
-	Author:		Debabrata Tripathy, IIT Bombay, Mumbai
-	Mail ID:	dtriapthy10@gmail.com
-	Website:	http://home.iitb.ac.in/~debabratatripathy/
-	Phone No:	9004499484
--->	
-
- <?php
+<?php
   include_once("header.php");
-  getHeader(4,"Regression Analysis","Trip Generatrion");
+  getHeader(4);
 ?> 
 <p><script language="JavaScript"> 
 function fullScreen1(theURL) { 
@@ -20,7 +12,7 @@ function fullScreen1(theURL) {
 </script>
 <div id="body">
 <span class="title">Experiment</span>
-<p><span class="title1"><a href="javascript:void(0);" onClick="fullScreen1('DataAnalysis1.php')";><strong> <span style="text-decoration: underline;">Click Here</span> To Perform Experiment with JAVA based Simulation</strong></a></p>
+<p><span class="title1"><a href="javascript:void(0);" onClick="fullScreen1('applet/DataAnalysis1.php')";><strong> <span style="text-decoration: underline;">Click Here</span> To Perform Experiment with JAVA based Simulation</strong></a></p>
 <!-- <p><a href="javascript:void(0);" onClick="fullScreen('checkprerequisite.php')";><span style="color:#FF0000;">( Click to check your system settings to execute above simulation )</span></a></p>
 <br> -->
 <p><span class="title1"><a href="DataRegrMod.php"><strong> <span style="text-decoration: underline;">Click Here</span> To Perform Experiment with PHP based Simultation</strong></a></span>

@@ -1,6 +1,6 @@
 <?php
   include_once("header.php");
-  getHeader(4);
+  getHeader(4,"Singly constrained Gravity Model","Trip Distribution");
 ?> 
 <head>
 <script language="JavaScript"> 
@@ -14,7 +14,7 @@ function fullScreen(theURL) {
 </head>
 <div id="body">
 <span class="title">Experiment</span>
-<p><span class="title1"><a href="javascript:void(0);" onClick="fullScreen('GravModel2.php')"; style="text-decoration: underline;">Click Here to Perform Experiment with JAVA based Simulation</a></span></p>
+<p><span class="title1"><a href="javascript:void(0);" onClick="fullScreen('applet/GravModel.php')"; style="text-decoration: underline;">Click Here to Perform Experiment with JAVA based Simulation</a></span></p>
 <p><span class="title1"><a href="SigGravMod.php" style="text-decoration: underline;">Click Here to Perform Experiment with PHP based Simulation</a></span></p>
 <br>
 <span class="title">See the default Excel / CSV input files for file format:</span>

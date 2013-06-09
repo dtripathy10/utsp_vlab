@@ -23,7 +23,7 @@ function getHeader($id,$name,$stage) {
 			<html>
   				<head>
     				<!-- le title -->
-  					<title><?php echo $name.$stage;?></title>
+  					<title><?php echo $name." | ".$stage;?></title>
     				<link rel="icon" href="../images/iitb.ico" type="image/x-icon" />
     				<!-- le CSS -->
         			<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">

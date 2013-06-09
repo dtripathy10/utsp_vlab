@@ -1,49 +1,84 @@
+<?php
+include_once("../util/system.php");
+include_once("header.php");
+getHeader(4,"Mode Split");
+session_start();
+$UploadFile = $_SESSION['user'];
+$folder = USER_ROOT."/".$UploadFile."/Experiment9/";
 
-<!--
-	Author:		Debabrata Tripathy, IIT Bombay, Mumbai
-	Mail ID:	dtriapthy10@gmail.com
-	Website:	http://home.iitb.ac.in/~debabratatripathy/
-	Phone No:	9004499484
--->	
+if(!is_dir($folder))
+{
+	mkdir($folder, 0777);
+}
 
- <?php
-  include_once("../util/system.php");
-  include_once("header.php");
-  getHeader(4,"Mode Split");
-?> 
+// Retrieving the values of variables
+
+$m_nmode = $_POST['nmode'];
+?>
+<head>
+<link rel="stylesheet" type="text/css" href="ddtabmenufiles/glowtabs.css" />
+
+<!-- Validation for Form Controls -->
+
+<script language="javascript">
+function chk1()
+{  
+	if(document.Frm.nmode.value == "")
+    {
+        alert ("Enter the no. of modes !!");
+        document.Frm.nmode.focus();
+        return false ;
+    }
+    if(isNaN(document.Frm.nmode.value))
+	{
+		alert ("Enter only numeric value !!");
+		document.Frm.nmode.focus();
+		return false ;
+	}
+    if(isNaN(document.Frm.nmode.value))
+	{
+		alert ("Enter only numeric value !!");
+		document.Frm.nmode.focus();
+		return false ;
+	}
+    if((document.Frm.nmode.value)>5)
+	{
+		alert ("Maximum 5 modes are allowed !!");
+		document.Frm.nmode.focus();
+		return false ;
+	}
+    document.Frm.action="ModeChoiceInput2.php";
+}
+</script>
+
+
+</head>
 
 <div id="body">
 <span class="title">Experiment</span>
-<p><span class="title1"><a href="CatAnalysisMod.php" style="text-decoration: underline;">Click Here to Perform Experiment with PHP based Simulation</a></span></p>
-<span class="title">See the default Excel / CSV input files for file format:</span>
-<table class="table table-bordered ">
+<center>
+<form enctype="multipart/form-data" method="post" name="Frm">
+<table class="table table-bordered table-hover">
 <tr>
-<th >Download &amp; Save each of these files to perform experiment.</th>
-<th >Click on the icon </span>to download &amp; Save all XLS/CSV files in zip format.</th>
-</tr>
-<tr>
-<td>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey_old.xls"><img src="img/SmallXLS.jpg" alt="Excel" />(Click Here) Observed Socio-economic Data File (xls)</span></a>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey.xls"><img src="img/SmallXLS.jpg" alt="Excel" />(Click Here) Forecasted Socio-economic Data File (xls)</span></a>
-</td>
-<td align="center" valign="top">
-<span class="title1">All XLS Files in zip format</span>
-<p><a href="<?php echo DOC_FOLDER;?>/CategoryAnalysis.zip"><img style="display: block; margin-left: auto; margin-right: auto;" src="img/XLS.JPG" alt="Excel"/></a></p>
-</td>
-</tr>
-<td>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey_old.csv"><img src="img/SmallCSV.jpg" alt="CSV"/>(Click Here) Observed Socio-economic Data File (csv)</span></a>
-<span class="title1"><a href="<?php echo DOC_FOLDER;?>/survey.csv"><img src="img/SmallCSV.jpg" alt="CSV"/> (Click Here) Forecasted Socio-economic Data File (csv) </span></a>
-</td>
-<td align="center" valign="top">
-<span class="title1">All CSV Files in zip format</span>
-<p><a href="<?php echo DOC_FOLDER;?>/CategoryAnalysisCSV.zip"><img style="display: block; margin-left: auto; margin-right: auto;" src="img/CSV.JPG" alt="CSV"/></a></p>
-</td>
+    <th align="left"  width="30%"><b> Enter the no. of modes : <b></th>
+    <td align="left">
+    <input type="Text" name="nmode" size="20" value="<?php $m_nmode ?>"> 
+    </td>
 </tr>
 </table>
-
+<br><br>
+<table align="center">
+<tr>
+	<td align="left">
+	<input type="submit" class=button value="Next" name="Submit" OnClick="return chk1()">
+	</td>
+</tr>
+</table>
+</form>
+<input type="hidden" name="nmode" value="<?=$m_nmode?>">
+</center>
 </div>
 <?php
   include_once("footer.php");
-  getFooter(4);
-?>  	
+  getFooter(3);
+?>          
