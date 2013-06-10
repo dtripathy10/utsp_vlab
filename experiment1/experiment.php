@@ -6,7 +6,7 @@
 -->	
 <?php
   include_once("header.php");
-  getHeader(4,"Volume, Speed and Delay Study at Intersection");
+   getHeader(4,"Volume, Speed and Delay Study at Intersection","");
 ?> 
 <script language="JavaScript"> 
 function fullScreen(theURL) { 

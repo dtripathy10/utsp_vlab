@@ -21,7 +21,7 @@ require_once("../util/system.php");
 function printSelfEvaluationQuestion($Exp, $ans) {
     //select the database
     selectDatabase();
-    $query = "SELECT * FROM SelfEval where ExpNo=" . $Exp . " order by Srno";
+    $query = "SELECT * FROM selfeval where ExpNo=" . $Exp . " order by Srno";
     $query = mysql_query($query) or die("MySQL Login Error: " . mysql_error());
     ?>
     <script>

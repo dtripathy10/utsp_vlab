@@ -18,6 +18,8 @@
 
 
 function getHeader($id,$name,$stage) {
+error_reporting(E_ALL);
+ini_set('display_errors=on', 1);
 ?>
 			<!DOCTYPE html>
 			<html>
@@ -238,7 +240,7 @@ function getHeader($id,$name,$stage) {
 	}
 
 }
-function($id) {
+function getHeader11($id) {
   getHeader($id,"","");
 }
 ?>

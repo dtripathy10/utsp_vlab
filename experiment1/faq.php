@@ -7,7 +7,7 @@
   -->	
  <?php
   include_once("header.php");
-  getHeader(5,"Volume, Speed and Delay Study at Intersection");
+   getHeader(5,"Volume, Speed and Delay Study at Intersection","");
 ?> 
   	<div id="body">
       <h1 class="designation">FAQs</h1>
