@@ -115,7 +115,7 @@ ini_set('display_errors=on', 1);
   				 <div id="top_container">
           <div id="header">
            <a href="http://www.iitb.ac.in/"><img class="logo" src="../images/iitb.png"/></a>
-          <h1 class="title_header"><a href="aim.php">Regression Analysi</a><span class="caption"><?php echo $stage;?></span></h1>
+          <h1 class="title_header"><a href="aim.php"><?php echo $name;?></a><span class="caption"><?php echo $stage;?></span></h1>
         </div>
          <div id="navbar">
   				<div class="row">
