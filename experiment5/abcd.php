@@ -18,7 +18,7 @@ $m_Exp = $_REQUEST['Exp'];
 
 
 
-	include_once('../pdfMaker.php');
+	include_once('pdfMaker.php');
 	//Create the pdf object and configure it
 	$pdf = new PDFmaker();
 	$pdf->configPdfFile();
@@ -51,7 +51,7 @@ $m_Exp = $_REQUEST['Exp'];
  //	$pdf->addPdfText("<h1>".$contents."</h1>");
 	//}
     mysql_close($link);
-	$dir = $folder;
+	$dir = "../user/".$UploadFile."/Experiment5/";
 	if ($handle = opendir($dir)) {
 	
     /* This is the correct way to loop over the directory. */
