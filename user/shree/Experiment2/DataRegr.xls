@@ -7,3 +7,12 @@ Car ownership	0.2556	0.5392	0.5232	1
 
 
 
+Correlation Matrix 
+	Trip Production	Population	Household	Car ownership	
+Trip Production	1	0.5055	0.5351	0.2556	
+Population	0.5055	1	0.9851	0.5392	
+Household	0.5351	0.9851	1	0.5232	
+Car ownership	0.2556	0.5392	0.5232	1	
+
+
+
