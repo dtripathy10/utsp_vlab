@@ -225,9 +225,8 @@ function chk1()
 	?>
 	</table>
 	</div>
-	<button class="btn1">
-	Next
-	</button>
+	<button class="btn1">Next</button>
+	<span class="tab"></span>
 	</div>
 	<br>
 
@@ -294,6 +293,7 @@ function chk1()
         echo "</table></div><br>";
         
 		echo '<button class="btn2">Back</button>';
+		echo '<span class="tab"></span>';
 		echo'<button class="btn3">Next</button>';
 		echo '</div>';
         
@@ -377,7 +377,7 @@ fclose($file3);
 <div id ="submit">
 <button class="btn4">Back</button>
 <input type="submit" class=button value="Next" name="Submit">
-
+<span class="tab"></span>
 </div>
 
    

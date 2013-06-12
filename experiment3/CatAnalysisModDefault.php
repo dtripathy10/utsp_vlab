@@ -1,7 +1,7 @@
  <?php
 include_once("../util/system.php");
 include_once("header.php");
-getHeader(4);
+getHeader(4,"Catagory Analysis","Trip Generatrion");
 session_start();
 $UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment3/";
@@ -142,13 +142,9 @@ function chk1()
 
 <input type="hidden" name="CatFile"  value="<?=$m_CatAnalysis?>"> 
 
+<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"><span class="tab"></span>
+<input type="Reset" class=button value="Reset"></td>
 
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
-</tr>
-</table> 
 <br><br>
 <a href="CatAnalysisMod.php?Exp=17"><H2><input type ="button" value="Back"></H2></a>
 <br>

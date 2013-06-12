@@ -1,13 +1,7 @@
-<!--
-	Author:		Debabrata Tripathy, IIT Bombay, Mumbai
-	Mail ID:	dtriapthy10@gmail.com
-	Website:	http://home.iitb.ac.in/~debabratatripathy/
-	Phone No:	9004499484
--->	
 <?php
   include_once("../util/system.php");
   include_once("header.php");
-  getHeader(4);
+  getHeader(4,"Regression Analysis","Trip Generation");
 ?> 
 <div id="body">
 <br>

@@ -1,7 +1,7 @@
  <?php
 include_once("../util/system.php");
 include_once("header.php");
-getHeader(4);
+getHeader(4,"Catagory Analysis","Trip Generatrion");
 session_start();
 $UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment3/";
@@ -203,7 +203,7 @@ elseif($file_ext1 == '.csv' )
         
         
 }
-echo '<table>';
+echo '<table class="table table-bordered table-hover">';
 for ($m = 1; $m <= $m_no_of_criteria; $m++)
 {
 
@@ -218,7 +218,7 @@ for ($m = 1; $m <= $m_no_of_criteria; $m++)
   			<option value="<?php echo ($j);?>"><?php echo $m_CatMtx[1][$j]?></option>  			
   			<?php     			
         }
-        echo '</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+        echo '</select><br>';
         
 		echo "<b>No. of groups to be categorized in criteria basis: </b>";
 		echo '<select name="no_of_groups[]" ';
@@ -237,6 +237,8 @@ for ($m = 1; $m <= $m_no_of_criteria; $m++)
   		
 }
 ?>
+
+</table>
 <br><br><br>
 
 <input type="hidden" name="CatFile" size="50" value="<?=$m_CatAnalysis?>"> 
@@ -258,12 +260,9 @@ for ($i = 0; $i < $m_no_of_criteria; $i++)
 <?php 
 }	
 ?>
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
-</tr>
-</table> 
+<input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"><span class="tab"></span>
+<input type="Reset" class=button value="Reset">
+
 <br><br>
 <a href="CatAnalysisMod2.php?Exp=17&CatFile=<?php echo $m_CatAnalysis?>"><H2><input type ="button" value="Back"></H2></a>
 <br>

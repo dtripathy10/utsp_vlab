@@ -306,6 +306,7 @@ function chk1()
         echo "</table></div><br>";
         
 		echo '<button class="btn2">Back</button>';
+		echo '<span class="tab"></span>';
 		echo'<button class="btn3">Next</button>';
 		echo '</div>';
         
@@ -388,6 +389,7 @@ fclose($file3);
     <input type="hidden" name="OriginFile" value="<?=$m_OriginFile?>"> 
     <input type="hidden" name="DestFile" value="<?=$m_DestFile?>"> 
 <div id ="submit">
+<span class="tab"></span>
 <button class="btn4">Back</button>
 <input type="submit" class=button value="Next" name="Submit">
 
@@ -401,7 +403,6 @@ fclose($file3);
 <table cellspacing=5 width = "40%" align="center" border=0>
 <tr>
 
-<!--  <td align="center">&nbsp;&nbsp;<a href="SigGravMod.php?Exp=3"><H2><u>Back</u></H2></a>&nbsp;&nbsp;</td> -->
 
 <td align="center">&nbsp;&nbsp;<a href="SigGravModDel.php?Exp=3&CostFile=<?=$m_CostFile?>&OriginFile=<?=$m_OriginFile?>&DestFile=<?=$m_DestFile?>"><H3><input type ="button" value="Restart Experiment"></H3></a>&nbsp;&nbsp;</td>
 </tr>
