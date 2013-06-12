@@ -221,6 +221,7 @@ if($file_ext1 == '.xls' && $file_ext2 == '.xls' && $file_ext3 == '.xls')
 	</table>
 	</div>
 	<button class="btn1">Next</button>
+	<span class="tab"></span> 
 	</div>
 	<br>
 
@@ -287,6 +288,7 @@ if($file_ext1 == '.xls' && $file_ext2 == '.xls' && $file_ext3 == '.xls')
         echo "</table></div><br>";
         
 		echo '<button class="btn2">Back</button>';
+		echo '<span class="tab"></span>';
 		echo'<button class="btn3">Next</button>';
 		echo '</div>';
         
@@ -439,6 +441,7 @@ elseif($file_ext1 == '.csv' && $file_ext2 == '.csv' && $file_ext3 == '.csv')
 	</table>
 	</div>
 	<button class="btn1">Next</button>
+	<span class="tab"></span> 
 	</div>
 	<br>
 
@@ -515,6 +518,7 @@ elseif($file_ext1 == '.csv' && $file_ext2 == '.csv' && $file_ext3 == '.csv')
         }
         echo "</table></div><br>";
         echo '<button class="btn2">Back</button>';
+        echo '<span class="tab"></span>';
 		echo'<button class="btn3">Next</button>';
 		echo '</div>';
         
@@ -629,8 +633,8 @@ else
         	<input type="hidden" name="OriginFile" value="<?=$m_OriginFile?>"> 
         	<input type="hidden" name="DestFile" value="<?=$m_DestFile?>"> 
         	
-<button class="btn4">Back</button> 
-<input type="submit" class="btn4" value="Next" name="Submit" OnClick="return chk1()">
+<button class="btn4">Back</button><span class="tab"></span> 
+<input type="submit" class="button" value="Next" name="Submit" OnClick="return chk1()">
 </div> 
 <?php 
 

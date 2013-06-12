@@ -1,6 +1,7 @@
 <?php
 include_once("../util/system.php");
 session_start();	//To check whether the session has started or not
+$UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment2/";
 // Retrieving the values of variables
 
@@ -43,7 +44,7 @@ $m_Exp = $_REQUEST['Exp'];
    $pdf->addPdfText("University/College Name :".$ColUniName);
 
 
-	$dir ="../user/".$UploadFile."/Experiment".$m_Exp;
+	$dir ="../user/".$UploadFile."/Experiment2";
 	if ($handle = opendir($dir)) {
 	
     /* This is the correct way to loop over the directory. */
