@@ -1,7 +1,7 @@
  <?php
 include_once("../util/system.php");
 include_once("header.php");
-getHeader(4);
+getHeader(4,"Catagory Analysis","Trip Generatrion");
 session_start();
 $UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment3";
