@@ -1,7 +1,8 @@
-<?php 
-
+<?php
+include_once("../util/system.php");
+session_start();	//To check whether the session has started or not
 $UploadFile = $_SESSION['user'];
-$folder = "../user/".$UploadFile."/Experiment5/";
+$folder = USER_ROOT."/".$UploadFile."/Experiment5/";
 
 // Retrieving the values of variables
 
@@ -51,7 +52,7 @@ $m_Exp = $_REQUEST['Exp'];
  //	$pdf->addPdfText("<h1>".$contents."</h1>");
 	//}
     mysql_close($link);
-	$dir = "../user/".$UploadFile."/Experiment5/";
+	$dir = "../user/".$UploadFile."/Experiment5";
 	if ($handle = opendir($dir)) {
 	
     /* This is the correct way to loop over the directory. */
@@ -78,21 +79,7 @@ $m_Exp = $_REQUEST['Exp'];
 
     closedir($handle);
 	}
-	
 
- 
-	//ADD TOC
-		// add a new page for TOC
-	//	$pdf->AddPage();
-		// write the TOC title
-	//	$pdf->MultiCell(0, 0, 'Content table', 0, 'C', 0, 1, '', '', true, 0);
-	//	$pdf->Ln();
-		// add table of content at page 1
-	//	$pdf->addTOC(1, '', '.');
-	//End TOC
- 
-	//Close and output PDF document
-	//$dir1= "../VLab/".$UploadFile."/pdf_file_name.pdf";
 	$pdf->Output($folder."TestReport.pdf", 'FI');
 	
 	
