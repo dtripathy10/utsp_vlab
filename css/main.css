@@ -763,5 +763,7 @@ ul.answers li{
     margin-bottom: 20px;
     color: #FF0000;
 }
-
+table tr.color{
+    background-color: #008080;
+}
 
