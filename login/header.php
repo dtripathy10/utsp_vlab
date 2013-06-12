@@ -67,7 +67,7 @@ function getHeader($id,$title) {
   <body>
     <!-- <div class="alert alert-block alert-success">
             <button type="button" class="close" data-dismiss="alert">×</button>
-            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiments.
+            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiment List.
           </div> -->
 
     <div id="top_container">
@@ -79,7 +79,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -112,7 +112,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li class="active"><a href="experiments.php">Experiments</a></li>
+              <li class="active"><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -136,7 +136,7 @@ function getHeader($id,$title) {
   <body>
     <!-- <div class="alert alert-block alert-success">
             <button type="button" class="close" data-dismiss="alert">×</button>
-            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiments.
+            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiment List.
           </div> -->
 
     <div id="top_container">
@@ -148,7 +148,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -183,7 +183,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -215,7 +215,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -239,7 +239,7 @@ function getHeader($id,$title) {
   <body>
     <!-- <div class="alert alert-block alert-success">
             <button type="button" class="close" data-dismiss="alert">×</button>
-            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiments.
+            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiment List.
           </div> -->
 
     <div id="top_container">
@@ -251,7 +251,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -275,7 +275,7 @@ function getHeader($id,$title) {
   <body>
     <!-- <div class="alert alert-block alert-success">
             <button type="button" class="close" data-dismiss="alert">×</button>
-            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiments.
+            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiment List.
           </div> -->
 
     <div id="top_container">
@@ -287,7 +287,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -318,7 +318,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li  class="active"><a href="feedback.php">Feedback</a></li>
               <li><a href="report.php">Report</a></li>
           </ul>
@@ -342,7 +342,7 @@ function getHeader($id,$title) {
   <body>
     <!-- <div class="alert alert-block alert-success">
             <button type="button" class="close" data-dismiss="alert">×</button>
-            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiments.
+            Virtual Lab on Urban Transportation Systems Planning (UTSP) is in β version. Please <a href="login.php">Login</a> and perform Experiment List.
           </div> -->
 
     <div id="top_container">
@@ -354,7 +354,7 @@ function getHeader($id,$title) {
         <div class="span6">
           <ul id="menu-bar">
               <li><a href="index.php">Home</a></li>
-              <li><a href="experiments.php">Experiments</a></li>
+              <li><a href="experiments.php">Experiment List</a></li>
               <li><a href="feedback.php">Feedback</a></li>
               <li   class="active"><a href="report.php">Report</a></li>
           </ul>

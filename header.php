@@ -66,7 +66,7 @@ function printNavbar() {
                                 <div class="span6">
                                     <ul id="menu-bar">
                                         <li class="active"><a href="index.php">Home</a></li>
-                                        <li><a href="experiments.php">Experiments</a></li>
+                                        <li><a href="experiments.php">Experiment List</a></li>
                                         <li><a href="people.php">People</a></li>
                                         <li><a href="contact.php">Contact Us</a></li>
                                     </ul>
@@ -94,7 +94,7 @@ function printNavbar() {
                     <div class="span6">
                         <ul id="menu-bar">
                             <li><a href="index.php">Home</a></li>
-                            <li  class="active"><a href="experiments.php">Experiments</a></li>
+                            <li  class="active"><a href="experiments.php">Experiment List</a></li>
                             <li><a href="people.php">People</a></li>
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
@@ -122,7 +122,7 @@ function printNavbar() {
                 <div class="span6">
                     <ul id="menu-bar">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="experiments.php">Experiments</a></li>
+                        <li><a href="experiments.php">Experiment List</a></li>
                         <li  class="active"><a href="people.php">People</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>
@@ -154,7 +154,7 @@ function printNavbar() {
                 <div class="span6">
                     <ul id="menu-bar">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="experiments.php">Experiments</a></li>
+                        <li><a href="experiments.php">Experiment List</a></li>
                         <li><a href="people.php">People</a></li>
                         <li class="active"><a href="contact.php">Contact Us</a></li>
                     </ul>
@@ -182,7 +182,7 @@ function printNavbar() {
                 <div class="span6">
                     <ul id="menu-bar">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="experiments.php">Experiments</a></li>
+                        <li><a href="experiments.php">Experiment List</a></li>
                         <li><a href="people.php">People</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>
@@ -210,7 +210,7 @@ function printNavbar() {
                 <div class="span6">
                     <ul id="menu-bar">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="experiments.php">Experiments</a></li>
+                        <li><a href="experiments.php">Experiment List</a></li>
                         <li><a href="people.php">People</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>
@@ -238,7 +238,7 @@ function printNavbar() {
                 <div class="span6">
                     <ul id="menu-bar">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="experiments.php">Experiments</a></li>
+                        <li><a href="experiments.php">Experiment List</a></li>
                         <li><a href="people.php">People</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>

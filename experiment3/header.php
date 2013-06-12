@@ -61,7 +61,7 @@ ini_set('display_errors=on', 1);
         			<div class="span4 pull-right">
       					<ul id="menu-bar1">
               				<li ><a href="../login/index.php">Home</a></li>
-              				<li><a href="../login/experiments.php">Experiments</a></li>
+              				<li><a href="../login/experiments.php">Experiment List</a></li>
               				<li ><a href="../login/logout.php">Logout</a></li>
           				</ul>
         			</div>
@@ -99,7 +99,7 @@ ini_set('display_errors=on', 1);
         			<div class="span4 pull-right">
       					<ul id="menu-bar1">
               				<li ><a href="../login/index.php">Home</a></li>
-              				<li><a href="../login/experiments.php">Experiments</a></li>
+              				<li><a href="../login/experiments.php">Experiment List</a></li>
               				<li ><a href="../login/logout.php">Logout</a></li>
           				</ul>
         			</div>
@@ -132,7 +132,7 @@ ini_set('display_errors=on', 1);
         			<div class="span4 pull-right">
       					<ul id="menu-bar1">
               				<li ><a href="../login/index.php">Home</a></li>
-              				<li><a href="../login/experiments.php">Experiments</a></li>
+              				<li><a href="../login/experiments.php">Experiment List</a></li>
               				<li ><a href="../login/logout.php">Logout</a></li>
           				</ul>
         			</div>
@@ -164,7 +164,7 @@ ini_set('display_errors=on', 1);
         			<div class="span4 pull-right">
       					<ul id="menu-bar1">
               				<li ><a href="../login/index.php">Home</a></li>
-              				<li><a href="../login/experiments.php">Experiments</a></li>
+              				<li><a href="../login/experiments.php">Experiment List</a></li>
               				<li ><a href="../login/logout.php">Logout</a></li>
           				</ul>
         			</div>
@@ -196,7 +196,7 @@ ini_set('display_errors=on', 1);
         			<div class="span4 pull-right">
       					<ul id="menu-bar1">
               				<li ><a href="../login/index.php">Home</a></li>
-              				<li><a href="../login/experiments.php">Experiments</a></li>
+              				<li><a href="../login/experiments.php">Experiment List</a></li>
               				<li ><a href="../login/logout.php">Logout</a></li>
           				</ul>
         			</div>
@@ -228,7 +228,7 @@ ini_set('display_errors=on', 1);
         			<div class="span4 pull-right">
       					<ul id="menu-bar1">
               				<li ><a href="../login/index.php">Home</a></li>
-              				<li><a href="../login/experiments.php">Experiments</a></li>
+              				<li><a href="../login/experiments.php">Experiment List</a></li>
               				<li ><a href="../login/logout.php">Logout</a></li>
           				</ul>
         			</div>
