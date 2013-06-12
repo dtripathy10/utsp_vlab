@@ -235,15 +235,11 @@ elseif($file_ext1 == '.csv' )
 
 <input type="hidden" name="CatFile"  value="<?=$m_CatAnalysis?>"> 
 
-
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
-</tr>
-</table> 
+<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"><span class="tab"></span>
+<input type="Reset" class=button value="Reset">
+ 
 <br><br>
-<a href="CatAnalysisMod.php?Exp=17"><H2><u>Back</u></H2></a>
+<a href="CatAnalysisMod.php?Exp=17"><H2><input type ="button" value="Back"></H2></a>
 <br>
 </form>
 </center>
