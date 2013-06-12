@@ -1,7 +1,7 @@
 <?php
   include_once("../util/system.php");
   include_once("header.php");
-  getHeader(4,"Regression Analysis","Trip Generation");
+  getHeader(4);
 
   ?>
 <div id="body">
