@@ -3,7 +3,7 @@
   getHeader(3,"Catagory Analysis","Trip Generatrion");
 ?> 
 <div id="body">  
-<p>Select the type of experiment you want to perform. The format of the input file should be according to the default file. </P>
+<p>Select the type of experiment you want to perform. The format of the input file should be according to the default file.</P>
 <p><center><img src="img/img_1.bmp"/></center></p>
 <br>
 <p><center><img src="img/img_2.bmp"/></center></p>
