@@ -1,0 +1,108 @@
+Singly Constrained Growth Factor Method  
+
+Growth Factor Calculations 
+Zone 	 Future year Origin total 	 Base year Origin total 	 Growth Factor For Each Originating Zone 	 
+1	150	50	3	 
+2	120	83	1.446	 
+3	75	42	1.786	 
+4	45	16	2.813	 
+5	120	17	7.059	 
+
+ 
+ 
+Singly Constrained Growth Factor Matrix For Future Year  
+Zone 	1 	2 	3 	4 	5 	Origins Total Future year 
+1 	30 	45 	60 	15 	0 	150 	150 	 
+2 	7 	3 	46 	17 	46 	119 	120 	 
+3 	4 	5 	5 	25 	36 	75 	75 	 
+4 	3 	14 	3 	11 	14 	45 	45 	 
+5 	0 	28 	21 	35 	35 	119 	120 	 
+Destinations Total Base year 	44 	 95 	 135 	 103 	 131 	  
+ 
+ 
+Fratar Growth Factor Method  
+
+ Selected Accuracy : Individual Cell 
+Entered Accuracy Level (i.e., percentage of error): 2 Cell 
+Iteration # 1 
+ 
+Fratar Growth Factor Matrix For Future Year 
+ Zone 	1 	2 	3 	4 	5 	Current Origins Total 	 Origins Total Future year 	 
+1 	30 	45 	60 	15 	0 	150 	150 	 
+ 2 	7.229 	2.892 	46.265 	17.349 	46.265 	120 	120 	 
+ 3 	3.571 	5.357 	5.357 	25 	35.714 	75 	75 	 
+ 4 	2.813 	14.063 	2.813 	11.25 	14.063 	45 	45 	 
+ 5 	0 	28.235 	21.176 	35.294 	35.294 	120 	120 	 
+ Current Destinations Total 
+ 43.613 	95.547 	135.611 	103.894 	131.336 	
+ Destinations Total Future year 	 48 	75 	48 	150 	189 	
+ 
+ 
+ Fratar Growth Factor Matrix For Future Year 
+  Zone 	 1 	2 	3 	4 	5 	Current Origins Total 	 Origins Total Future year 	 
+1 	33.018 	35.323 	21.237 	21.657 	0 	111.235 	150	 
+2 	7.956 	2.27 	16.376 	25.049 	66.578 	118.228 	120	 
+3 	3.931 	4.205 	1.896 	36.095 	51.395 	97.522 	75	 
+4 	3.095 	11.038 	0.995 	16.243 	20.237 	51.609 	45	 
+5 	0 	22.164 	7.495 	50.957 	50.79 	131.406 	120	 
+Current Destinations Total 	 48 	75 	48 	150 	189 	 
+ Destinations Total Future year 	 48 	75 	48 	150 	189 	 
+  
+ 
+ 
+  
+ 
+Iteration # 2 
+ 
+Fratar Growth Factor Matrix For Future Year 
+ Zone 	1 	2 	3 	4 	5 	Current Origins Total 	 Origins Total Future year 	 
+1 	44.595 	47.297 	28.378 	29.73 	0 	150 	150 	 
+ 2 	8.136 	2.034 	16.271 	25.424 	68.136 	120 	120 	 
+ 3 	3.093 	3.093 	1.546 	27.835 	39.433 	75 	75 	 
+ 4 	2.647 	9.706 	0.882 	14.118 	17.647 	45 	45 	 
+ 5 	0 	20.153 	6.412 	46.718 	46.718 	120 	120 	 
+ Current Destinations Total 
+ 58.47 	82.283 	53.491 	143.824 	171.933 	
+ Destinations Total Future year 	 48 	75 	48 	150 	189 	
+ 
+ 
+ Fratar Growth Factor Matrix For Future Year 
+  Zone 	 1 	2 	3 	4 	5 	Current Origins Total 	 Origins Total Future year 	 
+1 	36.609 	43.111 	25.465 	31.006 	0 	136.192 	150	 
+2 	6.679 	1.854 	14.601 	26.516 	74.899 	124.548 	120	 
+3 	2.539 	2.819 	1.388 	29.03 	43.347 	79.123 	75	 
+4 	2.173 	8.847 	0.792 	14.724 	19.399 	45.934 	45	 
+5 	0 	18.369 	5.754 	48.724 	51.355 	124.202 	120	 
+Current Destinations Total 	 48 	75 	48 	150 	189 	 
+ Destinations Total Future year 	 48 	75 	48 	150 	189 	 
+  
+ 
+ 
+  
+ 
+ Final Result 
+ 
+ Fratar Growth Factor Matrix For Future Year 
+ Zone 	1 	2 	3 	4 	5 	Current Origins Total 	 Origins Total Future year 	 
+1 	36.957 	46.739 	27.174 	39.13 	0 	150 	150 	 
+2 	4.762 	1.905 	12.381 	25.714 	75.238 	120 	120 	 
+3 	1.875 	2.813 	0.938 	27.188 	42.188 	75 	75 	 
+4 	1.957 	7.826 	0.978 	14.674 	19.565 	45 	45 	 
+5 	0 	15.484 	4.839 	47.419 	52.258 	120 	120 	 
+Current Destinations Total 	45.55 	74.766 	46.309 	154.125 	189.249 	 
+ Destinations Total Future year 	 48 	75 	48 	150 	189 	 
+ 
+ 
+ Fratar Growth Factor Matrix For Future Year 
+ Zone 	 1 	2 	3 	4 	5 	Current Origins Total 	 Origins Total Future year 	 
+1 	30.339 	42.602 	24.385 	40.811 	0 	138.137 	150 	 
+2 	3.909 	1.736 	11.11 	26.819 	82.707 	126.281 	120 	 
+3 	1.539 	2.564 	0.841 	28.355 	46.375 	79.674 	75 	 
+4 	1.606 	7.133 	0.878 	15.304 	21.507 	46.429 	45 	 
+5 	0 	14.113 	4.342 	49.456 	57.445 	125.357 	120 	 
+Current Destinations Total 	37.393 	68.149 	41.556 	160.744 	208.035 	 
+ Destinations Total Future year 	 48 	75 	48 	150 	189 	 
+ 
+ No. of Iteration taken to reach final result : 4 
+ 
+ 

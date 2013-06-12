@@ -1380,8 +1380,7 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
 
 ?>
 <form enctype="multipart/form-data" method="post" name="Frm" action="GroFactModRes.php">
-        
-        <table cellspacing=5>
+
         	<input type="hidden" name="MethodVal" value="<?=$m_MethodVal?>">
         	<input type="hidden" name="txtGrowth" value="<?=$m_txtGrowth?>">
         	<input type="hidden" name="ConstraintsVal" value="<?=$m_ConstraintsVal?>"> 
@@ -1402,23 +1401,21 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
 			        echo'<tr>';
 			        if($itrbrk != 1 && !($itr < $itrbrk))
     			    {
-    			       echo'<td align="left"><input type="submit" class=button value="First " name="first"></td>';
+    			       echo'<td align="left"><input type="submit" class=button value="First " name="first"><span class="tab"></span>';
     			        
     			    }
 			    	if($itrbrk>1 && $m_a == 1 )
 			    	{
-			        	 echo'<td align="left"><input type="submit" class=button value="Previous" name="Previous"></td>';
+			        	 echo'<input type="submit" class=button value="Previous" name="Previous"><span class="tab"></span>';
     				}
     				if(!($itr < $itrbrk))
     				{
-    				     echo'<td align="left"><input type="submit" class=button value="Next" name="Next"></td>';
-    				     echo'<td align="left"><input type="submit" class=button value="Last" name="FinalRes"></td>';
+    				     echo'<input type="submit" class=button value="Next" name="Next"><span class="tab"></span>';
+    				     echo'<input type="submit" class=button value="Last" name="FinalRes"><span class="tab"></span>';
     				}
-    				echo'</tr>';
     				if($m_a != 1)
     				{
-    					echo '<tr>';
-			        echo'<td align="left"> Select number of iteration to be printed in the report : </td>';
+			        echo'<td align="left"> Select number of iteration to be printed in the report :';
 			        echo'<td align="left">';
 			        ?>
 			        <select name="numItr">
@@ -1431,19 +1428,15 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
         			}
         			?>
 					</select>
-					</td></tr>
-					<tr>
-					<td colspan="2"><b>(Note: Final iteration will always be printed in the report)</b>					
+					<br>
+					<b>(Note: Final iteration will always be printed in the report)</b>					
         			<?php    
-    					echo '</td></tr>';
 					}
 			    }
    			
     			?>							
-					
-		</table>
+				
 		</div>
-		<br><br>
 <table align="right">
 <tr align ="right"><td>
 <input type="submit" class=button value="Add To Report" name="Submit" OnClick="return chk1()">
@@ -1457,7 +1450,7 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
 <br>
 
 </table>
-<br><br><br>
+
 <table cellspacing=5 width = "100%" align="center" border=0>
 <tr>
 
