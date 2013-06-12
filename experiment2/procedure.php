@@ -1,6 +1,6 @@
 <?php
   include_once("header.php");
-  getHeader(3);
+  getHeader(3,"Regression Analysis", "Trip Generation");
 ?> 
 <div id="body">
 <p><b>Step 1</b></p>
