@@ -879,7 +879,7 @@ for ($i = 1; $i <= $n; $i++)
         
         <form enctype="multipart/form-data" method="post" name="Frm" action="DoubGravModRes.php?Exp=4">
         
-        <table cellspacing=5>
+ 
         	<input type="hidden" name="FunctionsVal" size="50" value="<?=$m_FunctionsVal?>"> 
 				<?php
  						if($m_FunctionsVal == "PowerFun")
@@ -923,15 +923,15 @@ for ($i = 1; $i <= $n; $i++)
         	<input type="hidden" name="Itrbrk" value="<?=$itrbrk?>"> 
         	<input type="hidden" name="Itr" value="<?=$itr?>">
         	
-			<tr>
+
 			    <?php 
 			    if(!$itrbrk != 1 && !($itr < $itrbrk))
     			{
-    			    echo'<td align="left"><input type="submit" class=button value="First " name="first"></td>';
+    			    echo'<input type="submit" class=button value="First " name="first"><span class="tab"></span>';
     			}
 			    if($itrbrk>1 && $m_a == 1 )
 			    {
-			        echo'<td align="left"><input type="submit" class=button value="Previous" name="Previous"></td>';
+			        echo'<input type="submit" class=button value="Previous" name="Previous"><span class="tab"></span>';
     			}
     			
     			
@@ -939,18 +939,15 @@ for ($i = 1; $i <= $n; $i++)
     			if(!($itr < $itrbrk))
     			{
     				  			     
-    			     echo'<td align="left"><input type="submit" class=button value="Next" name="Next"></td>';
+    			     echo'<input type="submit" class=button value="Next" name="Next"><span class="tab"></span>';
     			     if($itr)
     			     {
-    			     	echo'<td align="left"><input type="submit" class=button value="Last" name="FinalRes"></td>';
+    			     	echo'<input type="submit" class=button value="Last" name="FinalRes"><span class="tab"></span>';
     			     }
     			}
-    			echo'</tr>';
     			if($m_a != 1 && $itr>0)
     			{
-    				echo '<tr>';
-			        echo'<td align="left"> Select number of iteration to be printed in the report : </td>';
-			        echo'<td align="left">';
+    				echo 'Select number of iteration to be printed in the report : ';
 			        ?>
 			        <select name="numItr">
         			<?php 
@@ -962,18 +959,15 @@ for ($i = 1; $i <= $n; $i++)
         			}
         			?>
 					</select>
-					</td></tr>
-					<tr>
-					<td colspan="2"><b>(Note: Final iteration will always be printed in the report)</b>
+					<br>
+					<b>(Note: Final iteration will always be printed in the report)</b>
 
 					<?php
     					echo '</td></tr>';
     					//echo'<tr><td align="center" colspan=2><br><input type="submit" class=button value="Generate XLS Report" name="genrepo" OnClick="return chk1()">';
     					//echo'<input type="submit" class=button value="Generate PDF Report" name="genrepo" OnClick="return chk2()"></td></tr>';
 						
-					?>						
-					</tr>
-					</table>	    
+					?>			    
 					<table align="right">
 						<tr align ="right">
 							<td>

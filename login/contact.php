@@ -58,6 +58,7 @@ function chk1()
       <a href="http://www.civil.iitb.ac.in/">Dept. of Civil Engineering</a><br/>
       <a href="http://www.iitb.ac.in/">Indian Institute of Technology, Bombay</a><br/>
       Powai, Mumbai 400076, India <br/>
+      Phone: +91-22-2576-7308 (7308 from IITB intercom) <br/> 
       Mail:<a href="mailto:gpatil@iitb.ac.in"> gpatil@iitb.ac.in</a> </p>
    <div style="clear: both;"></div>
    <br/>

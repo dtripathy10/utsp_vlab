@@ -1,11 +1,10 @@
-<?php 
-include '../header.php'; 
-include "../functlib.php";
-
-// Retrieving the values of variables
-
+<?php
+include_once("../util/system.php");
+include_once("header.php");
+getHeader(4,"Singly constrained Gravity Model","Trip Distribution");
+session_start();
 $UploadFile = $_SESSION['user'];
-$folder = "../user/".$UploadFile."/Experiment5/";
+$folder = USER_ROOT."/".$UploadFile."/Experiment5/";
 
 $m_MethodVal = $_POST['MethodVal'];
 $m_FunctionsVal = $_POST['FunctionsVal'];
@@ -50,17 +49,18 @@ include("SigGravModRptPdf.php");
 </style>
 
 </head>
-<div class="container-fluid1">
-
+<div id="body">
 <form enctype="multipart/form-data" method="post" name="Frm" >
 <h1><font color="Black">Data Successfully added to the Report.</h1><br>
+<a href='<?php echo $folder?>SigGravModReport.xls' target="new"><h2>Click to Download Overall Report (.xls)</h2></a>
 <br>
-<a href='../user/<?php echo $UploadFile?>/Experiment5/SigGravModReport.xls' target="new"><h3>Click to Download Overall Report (.xls)</h2></a>
-
-<br><br>
-<a href='../abcd.php?Exp=5'  target="new"><h3>Click to Download Overall Report(.pdf)</h2></a>
-<br><br>
+<a href='abcd.php?Exp=5'  target="new"><h3>Click to Download Overall Report(.pdf)</h2></a>
+<br>
 <a href ="SigGravMod.php?Exp=3"><h3>Go back to experiment</h2></a>
 </form>
 </div>
-<?php include '../footer.php'; ?>
+<?php
+  include_once("footer.php");
+  getFooter(4);
+?>  	
+
