@@ -1,5 +1,5 @@
 <?php
-  include_once("header.php");
+  include_once("header.php","Category Analysis","Trip Generation");
   getHeader(3);
 ?> 
 <div id="body">  
