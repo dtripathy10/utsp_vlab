@@ -1,6 +1,6 @@
 <?php
-  include_once("header.php","Category Analysis","Trip Generation");
-  getHeader(3);
+  include_once("header.php");
+  getHeader(3,"Category Analysis","Trip Generation");
 ?> 
 <div id="body">  
 <p>Select the type of experiment you want to perform. The format of the input file should be according to the default file. </P>
