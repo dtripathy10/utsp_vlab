@@ -1,7 +1,7 @@
  <?php
 include_once("../util/system.php");
 include_once("header.php");
-getHeader(4);
+getHeader(4,"Catagory Analysis","Trip Generatrion");
 session_start();
 $UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment3";
@@ -100,24 +100,21 @@ function chk2()
 </tr>
 <td align="right"><img src="img/SmallCSV.jpg" alt="CSV" /></td><td align="left"><strong><a href="<?php echo DOC_FOLDER;?>/pune.csv">- (Click Here) for Input File (csv)</a></strong></td>
 </tr>
-<tr>
+
+</table>
 
 
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
-</tr>
-</table>
-</table>
+
+
+<input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"><span class="tab"></span>
+<input type="Reset" class=button value="Reset">
+
 </div>
 <div id="default" >
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
-</tr>
-</table>
+
+<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()"><span class="tab"></span>
+<input type="Reset" class=button value="Reset">
+
 </div>
 <br>
 

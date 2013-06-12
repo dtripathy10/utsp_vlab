@@ -1,10 +1,7 @@
 <?php
-  include_once("../util/system.php");
-  include_once("header.php");
-  getHeader(4);
-?> 
-
-<?php
+include_once("../util/system.php");
+include_once("header.php");
+getHeader(4,"Singly constrained Gravity Model","Trip Distribution");
 session_start();
 $UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment5/";
@@ -648,7 +645,7 @@ else
 				</table>
 				<br>
 				<button class="btn7">Next</button>
-
+			</div>
             <?php 
         	echo '<div id="Final"><center>';
             echo '<h2>Final Result</h2><br>';
