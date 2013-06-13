@@ -35,7 +35,7 @@ $m_college = $_POST['college'];
 // Save the new user record into the database
 
 if ($m_mode == "add") {
-    $sql = "insert into UserMaster (`UserName`,`Password`,`FName`,`MName`,`LName`,`DOB`,`EmailId`,`ContactNo`,`course`,`college`,`city`) values('$m_user','$m_pass','$m_fname','$emp_m_name','$m_lname','$m_dob','$m_email','$m_mobile','$m_course','$m_college','$m_city');";
+    $sql = "insert into usermaster (`UserName`,`Password`,`FName`,`MName`,`LName`,`DOB`,`EmailId`,`ContactNo`,`course`,`college`,`city`) values('$m_user','$m_pass','$m_fname','$emp_m_name','$m_lname','$m_dob','$m_email','$m_mobile','$m_course','$m_college','$m_city');";
     //echo $sql;
     $result = mysql_query($sql);
 
