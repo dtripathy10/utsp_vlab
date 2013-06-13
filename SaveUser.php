@@ -12,7 +12,19 @@ $m_fname = ucfirst($_POST['fname']);
 $emp_m_name = ucfirst($_POST['mname']);
 $m_lname = ucfirst($_POST['lname']);
 //$m_dob=$_POST['dob'];
-$m_dob = $_POST['DateOfBirth_Year'] . "-" . $_POST['DateOfBirth_Month'] . "-" . $_POST['DateOfBirth_Day'];
+$t1 = $_POST['DateOfBirth_Year'];
+$t2 = $_POST['DateOfBirth_Month'];
+$t3 = $_POST['DateOfBirth_Day'];
+if(!isset($_POST['DateOfBirth_Year'] )) {
+	$t1 = "00";
+}
+if(!isset($_POST['DateOfBirth_Month'] )) {
+	$t2 = "00";
+}
+if(!isset($_POST['DateOfBirth_Day'] )) {
+	$t3 = "00";
+}
+$m_dob = $t1 . "-" . $t2 . "-" . $t3;
 $m_email = $_POST['email'];
 $m_mobile = $_POST['c_no'];
 $m_course = $_POST['course'];

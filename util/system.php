@@ -1,8 +1,8 @@
 <?php
-define("DB_HOST", "localhost"); // The host you want to connect to.
+define("DB_HOST", "10.104.140.8"); // The host you want to connect to.
 define("DB_USER", "root"); // The database username.
 define("DB_PASS", "123456"); // The database password. 
-define("DB_NAME", "db2"); // The database name.
+define("DB_NAME", "db1"); // The database name.
 define("USER_ROOT","../user"); //Root folder
 define("DOC_FOLDER","../Docs"); //folder containing sample files 
 define("EXCELREADER","../phpExcelReader"); //folder containing excel reader API
