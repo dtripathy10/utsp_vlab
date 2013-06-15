@@ -867,7 +867,7 @@ elseif($m_MethodVal == "FratarGFM")
 		if(empty($itrbrk))
 		{
 		    $itrbrk=$_POST['Itrbrk'];
-		    echo $itrbrk;
+		    $itrbrk = 1;
 		}
         if($_POST['Previous'])
 		{
@@ -1182,9 +1182,7 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
             }       
             if($m_a)
             {            	           	
-                $itr++;
-                //echo "<h2>Iteration &nbsp;# ".$itr."</h2>"; 	30-12-2010
-                //echo "<br><br>";								30-12-2010	                            
+                $itr++;	                            
 
                 for ($k = 1; $k <= $nRow; $k++)
                 {

@@ -998,6 +998,7 @@ EOD;
             {
             	$pdf->Cell(25,10,$m_DestMtx[1][$i],1,0,'C');
             }
+             $pdf->Ln(); //new row
       		$pdf->Cell(25,10,"Dj'",1,0,'C');
           	for ($i = 1; $i <= $n; $i++)
             {

@@ -757,3 +757,10 @@ table tr.color{
     background-color: #008080;
 }
 
+.hh {
+	padding-left: 30px;
+	color: #999;
+}
+span.hh a{
+	padding-left: 10px;
+}

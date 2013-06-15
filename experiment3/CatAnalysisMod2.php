@@ -235,7 +235,7 @@ elseif($file_ext1 == '.csv' )
 
 <input type="hidden" name="CatFile"  value="<?=$m_CatAnalysis?>"> 
 
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"><span class="tab"></span>
+<input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"><span class="tab"></span>
 <input type="Reset" class=button value="Reset">
  
 <br><br>

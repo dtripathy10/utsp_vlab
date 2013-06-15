@@ -383,12 +383,10 @@ for ($i = 0; $i < $m_nmode; $i++)
 <input type="hidden" name="nmode" value="<?=$m_nmode?>">
 <br><br>
 
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Next" name="Next" OnClick="return chk1()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
-</tr>
-</table> 
+<input type="submit" class=button value="Next" name="Next" OnClick="return chk1()">
+<span class="tab"></span>
+<input type="Reset" class=button value="Reset">
+
 
 </form>
 

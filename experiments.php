@@ -32,16 +32,19 @@ getHeader(2, "Experiments | UTSP VLab");
       <li class="t1"><span>
             <a data-toggle="modal" href="#example">Volume, Speed and Delay Study at Intersection</a>
          </span></li>
+      <span class="hh"><span>Trip Generation:</span><a href="tripgeneration.php">Overview</a></span>  
       <li ><span><span>Trip Generation:</span><a data-toggle="modal" href="#example">Regression Analysis</a></span></li>
       <li class="t1"><span><span>Trip Generation:</span><a data-toggle="modal" href="#example">Category Analysis</a></span></li>
 
-
+	  <span class="hh"><span>Trip Distribution:</span><a href="tripdistribution.php">Overview</a></span>
       <li><span><span>Trip Distribution:</span><a data-toggle="modal" href="#example">Growth Factor Distribution Model</a></span></li>
       <li><span><span>Trip Distribution:</span><a data-toggle="modal" href="#example">Singly constrained Gravity Model</a></span></li>
       <li><span><span>Trip Distribution:</span><a data-toggle="modal" href="#example">Doubly constrained Gravity Model</a></span></li>
       <li><span><span>Trip Distribution:</span><a data-toggle="modal" href="#example">Calibration of Singly Constrained Gravity Model</a></span></li>
       <li class="t1"><span><span>Trip Distribution:</span><a data-toggle="modal" href="#example">Calibration of Doubly Constrained Gravity Model</a></span></li>
       <li class="t1"><span><a data-toggle="modal" href="#example">Mode Split</a></span></li>
+      
+      <span class="hh"><span>Trip Assignment:</span><a href="tripassignment.php">Overview</a></span>
       <li><span><span>Trip Assignment:</span><a data-toggle="modal" href="#example">All or Nothing (AON) Assignment</a></span></li>
       <li><span><span>Trip Assignment:</span><a data-toggle="modal" href="#example">User Equilibrium Assignment</a></span></li>
       <li class="t1"><span><span>Trip Assignment:</span><a data-toggle="modal" href="#example">System Optimal Assignment</a></span></li>

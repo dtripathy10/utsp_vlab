@@ -78,8 +78,9 @@ function chk2()
 </table>
 
 <div id ="default">
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
+<input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()">
+<span class="tab"></span>
+<input type="Reset" class=button value="Reset">
 </div>
 
 <div id="user">
@@ -110,12 +111,10 @@ function chk2()
 <td align="right"><img src="img/SmallCSV.jpg" alt="CSV" /></td><td align="left"><strong><a href="../Docs/OD.csv">- (Click Here) for Input File (csv)</a></strong></td>
 </tr>
 </table>
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()"></td>
-<!--<td align="left"><input type="Reset" class=button value="Reset"></td>-->
-</tr>
-</table>
+<input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()">
+<span class="tab"></span>
+<input type="Reset" class=button value="Reset">
+
  </div>
 </form>
 </center>

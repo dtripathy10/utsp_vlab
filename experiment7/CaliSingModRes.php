@@ -738,7 +738,7 @@ else
 </tr>
 
 <tr>
-	<td align="center">&nbsp;&nbsp;<a href="CaliSingModDel.php?Exp=5&CostFile=<?=$m_CostFile?>&TripFile=<?=$m_TripFile?>"><H3>Restart Experiment</H3></a>&nbsp;&nbsp;</td>
+	<td align="center">&nbsp;&nbsp;<a href="CaliSingModDel.php?Exp=5&CostFile=<?=$m_CostFile?>&TripFile=<?=$m_TripFile?>"><H3><input type="button" value="Restart Experiment"></H3></a></td>
 </tr>
 </table>
 </form>

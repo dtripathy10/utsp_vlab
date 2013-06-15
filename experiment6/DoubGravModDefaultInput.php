@@ -104,6 +104,13 @@ function chk1()
 			return false ;
 		}
 	}
+	if(document.Frm.AccuracyVal.value == "")
+	{
+		alert ("Select Accuracy !!");
+		document.Frm.AccuracyVal.focus();
+		return false ;
+	}
+	
 	document.Frm.action="DoubGravModRes.php?Exp=4";	
 }
 </script>
@@ -221,13 +228,10 @@ elseif($_POST['FunctionsVal']=="GammaFun" || $_POST['FunctionsVal']=="LinearFun"
 	</table>
 
 <br>
-<table cellspacing=5 align="center">
-<tr>
+<input type="submit" class="button" value="Submit" name="Submit" OnClick="return chk1()">
+<span class="tab"></span>
+<input type="submit" class=button value="Reset">
 
-<td align="left"><input type="submit" class="button" value="Submit" name="Submit" OnClick="return chk1()"></td>
-<!--<td align="left"><input type="submit" class=button value="Reset"></td>-->
-</tr>
-</table>
 
 <table cellspacing=5>
                 	        

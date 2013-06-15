@@ -1,4 +1,5 @@
 <?php
+include_once("../util/system.php");
   include_once("header.php");
    getHeader(4,"Regression Analysis","Trip Generation");
 ?> 
@@ -23,8 +24,8 @@ function fullScreen1(theURL) {
 <table class="table">
 <tbody>
 <tr>
-<td style="padding-left: 60px;"><a href="Docs/pune.xls"><img src="img/SmallXLS.jpg" alt="Excel" />&nbsp;<strong>(Click Here) for Input File (xls)</a></strong></td>
-<td style="padding-left: 60px;"><a href="Docs/punecsv.csv"><img src="img/SmallCSV.jpg" alt="CSV" />&nbsp;<strong>(Click Here) for Input File (csv)</a></strong></td>
+<td style="padding-left: 60px;"><a href="<?echo DOC_FOLDER?>/pune.xls"><img src="img/SmallXLS.jpg" alt="Excel" />&nbsp;<strong>(Click Here) for Input File (xls)</a></strong></td>
+<td style="padding-left: 60px;"><a href="<?echo DOC_FOLDER?>/punecsv.csv"><img src="img/SmallCSV.jpg" alt="CSV" />&nbsp;<strong>(Click Here) for Input File (csv)</a></strong></td>
 </tr>
 </tbody>
 </table>

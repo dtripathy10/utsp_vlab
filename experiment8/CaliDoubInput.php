@@ -135,7 +135,7 @@ function chk1()
 			<option value="All" <?if ($m_AccuracyVal == "All") {?>selected <?}?>>All Cell</option>						
 		</select>
 		&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="javascript:Popup('../AccuracyHelp.php?Exp=6')"><b><u>Click Here To Know</u></b></a>
+		<a href="javascript:Popup('AccuracyHelp.php?Exp=6')"><b><u>Click Here To Know</u></b></a>
 		<script type="text/javascript"> 			
   			var stile = "top=350, left=800, width=400, height=200 status=no, menubar=no, toolbar=no scrollbar=no";
      		function Popup(apri) 

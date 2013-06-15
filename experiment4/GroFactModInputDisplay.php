@@ -419,7 +419,7 @@ if($m_MethodVal == "SinglyGFM" || $m_MethodVal=="FratarGFM" )
 {
 ?>
 <button class = 'btn1'> Next </button>
-
+<span class="tab"></span>
 <?php 
 }
 ?>
@@ -889,6 +889,7 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
         	echo "</tr>";
         	echo "</table></div><br><br>";
         	echo "<button class = 'btn15'>Previous</button>";
+        	echo '<span class="tab"></span>';
         	echo "<button class = 'btn16'>Next</button>";
     		echo "</div>"; 
 
@@ -951,6 +952,7 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
         	echo "</table></div><br><br>"; 
 
         	echo "<button class = 'btn17'>Previous</button>";
+        	echo '<span class="tab"></span>';
         	echo "<button class = 'btn18'>Next</button>";
     		echo "</div>";
         	
@@ -1036,6 +1038,7 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
             }
         	echo "</tr></table></div><br> ";
      		echo "<button class = 'btn15'>Previous</button>";
+     		echo '<span class="tab"></span>';
         	echo "<button class = 'btn16'>Next</button>";
     		echo "</div>";
 				
@@ -1118,6 +1121,7 @@ if(!($file_ext2 == '.csv' || $file_ext2 == '.xls') && !($file_ext3 == '.csv' || 
         	echo "</table></div><br> ";
 
 			echo "<button class = 'btn17'>Previous</button>";
+			echo '<span class="tab"></span>';
         	echo "<button class = 'btn18'>Next</button>";
     		echo "</div>";
 		
@@ -1160,7 +1164,7 @@ if($m_MethodVal == "FratarGFM")
 {
 ?>
 <div id ="insert">
-<table align ="center"  border=0 cellspacing=5 align="center"  width="90%">
+<table class="table table-bordered table-hover">
 <tr>
             <th align="left"  width="30%"> Select Accuracy : </th>
             <td align="left"  width="70%">

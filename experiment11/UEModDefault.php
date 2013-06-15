@@ -211,7 +211,7 @@ echo "<div id ='OD'>";
 		<button class = "btn2"> Previous </button>
                 <span class="tab"></span>
 		<button class = "btn3"> Next </button>
-		     
+	</div>	     
         
 <!-- ////////////////////////////////////////////////////////////////////////////////  -->
      
@@ -254,12 +254,9 @@ echo "<div id ='OD'>";
 
 <br><br><br>		
 
-<table cellspacing=5>
-<tr>
-<td align="left"><button class = 'btn4'> Previous </button></td>
-<td align="left"><input type="submit" class=button value="Next" name="Submit" OnClick="return chk1()"></td>
-</tr>
-</table>		
+<button class = 'btn4'> Previous </button>
+<span class="tab"></span>
+<input type="submit" class=button value="Next" name="Submit" OnClick="return chk1()">
 		<table >
 		<tr>
    			<td align="center">&nbsp;&nbsp;<a href="UEModDel.php?Exp=9&NodeFile=<?=$m_NodeFile?>&ODFile=<?=$m_ODFile?>"><H3><input type="button" value="Restart Experiment"></H3></a>&nbsp;&nbsp;</td>

@@ -60,7 +60,7 @@ function chk1()
         <option value="" <?if ($m_MethodVal == "") {?>selected <?}?>>Select</option>
         <option value="UniformGFM" <?if ($m_MethodVal == "UniformGFM") {?>selected <?}?>>Uniform Growth Factor Method</option>
         <option value="SinglyGFM" <?if ($m_MethodVal == "SinglyGFM") {?>selected <?}?>>Singly Constrained Growth Factor Method</option>
-        <option value="FratarGFM" <?if ($m_MethodVal == "FratarGFM") {?>selected <?}?>>Fratar Growth Factor Method</option>       
+        <option value="FratarGFM" <?if ($m_MethodVal == "FratarGFM") {?>selected <?}?>>Doubly Constrained Growth Factor Method</option>       
     </select>   
     </td>
 </tr>

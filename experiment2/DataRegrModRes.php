@@ -1840,10 +1840,12 @@ if ($file_ext1 == '.xls') {
     <?php
     if ($m_AnalysisVar != "DataAna") {
         ?>
-
+<br><br>
             <table class="table table-bordered table-hover">
                 <tr align='center'><td>Does the above equation satisfy your Model.If yes then choose future year trip file and click next else click back</td></tr>
                 <tr align='center'><td>Choose future year trip file&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='file' name='tripfile2' accept="xls"></td></tr>
+                <tr align='center'><td><a href="<?echo DOC_FOLDER?>/pune.xls">Click here to download the sample input file for future year trip(.xls)</td></tr>
+                <tr align='center'><td><a href="<?echo DOC_FOLDER?>/punecsv.csv">Click here to download the sample input file for future year trip(.csv)</td></tr>
             </table>
         <?php
     }

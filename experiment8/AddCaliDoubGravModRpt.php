@@ -4,8 +4,8 @@
 if(file_exists($folder."CaliDoubGravModReport.xls"))
 		$fh = fopen($folder."CaliDoubGravModReport.xls", "a+") or die("can't open file");
 
+		  
 fwrite($fh, "Doubly Constrained Gravity Model \n") ;
-
 
 $b=array();
 $file_ext1= substr($m_CostFile, strripos($m_CostFile, '.'));

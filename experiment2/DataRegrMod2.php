@@ -123,18 +123,52 @@ function chk1()
 	}
 	else if(document.Frm.AnalysisVar.value == "RegrAna")
 	{
-		if(document.Frm.RegrDepdVar.value == "")
+		if(document.Frm.Type.value == "")
 		{
-			alert ("Select Dependent variable !!");
-			document.Frm.RegrDepdVar.focus();
+			alert ("Select the type of regression !!");
+			document.Frm.Type.focus();
 			return false ;
-		}	
-		if(document.Frm.elements["RegrInpdVar[]"].value == "")
+		}
+		else if(document.Frm.Type.value == "NonLinear")
 		{
-			alert ("Select Independent Variables !!");
-			document.Frm.RegrInpdVar.focus();
-			return false ;
-		}	
+			if(document.Frm.RegrType.value == "")
+			{
+				alert ("Select the method for non linear regression!!");
+				document.Frm.RegrType.focus();
+				return false ;
+			}
+			if(document.Frm.RegrDepdVar.value == "")
+			{
+				alert ("Select Dependent variable !!");
+				document.Frm.RegrDepdVar.focus();
+				return false ;
+			}	
+			if(document.Frm.elements["RegrInpdVar[]"].value == "")
+			{
+				alert ("Select Independent Variables !!");
+				document.Frm.RegrInpdVar.focus();
+				return false ;
+			}	
+		}
+		else
+		{
+			if(document.Frm.RegrDepdVar.value == "")
+			{
+				alert ("Select Dependent variable !!");
+				document.Frm.RegrDepdVar.focus();
+				return false ;
+			}	
+			if(document.Frm.elements["RegrInpdVar[]"].value == "")
+			{
+				alert ("Select Independent Variables !!");
+				document.Frm.RegrInpdVar.focus();
+				return false ;
+			}	
+		}
+
+
+		
+
 	}	
 
 	document.Frm.action="DataRegrModRes.php?Exp=1";

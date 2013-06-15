@@ -331,15 +331,10 @@ elseif($file_ext2 == '.csv')
 <input type="hidden" name="NodeFile" value="<?php echo $m_NodeFile;?>"> 
 <input type="hidden" name="OdFile" value="<?php echo $m_OdFile;?>"> 
 
-
-<br><br><br>		
-
-<table cellspacing=5>
-<tr>
-<td align="left"><button class = 'btn2'> Previous </button></td>
-<td align="left"><input type="submit" class=button value="Next" name="Submit" OnClick="return chk1()"></td>
-</tr>
-</table>		
+	
+<button class = 'btn2'> Back </button>
+<span class="tab"></span>
+<td align="left"><input type="submit" class=button value="Next" name="Submit" OnClick="return chk1()">
 		<table cellspacing=5 width = "40%" align="center" border=0>
 		<tr>
    			<td align="center">&nbsp;&nbsp;<a href="AONModDel.php?Exp=8&NodeFile=<?php echo $m_NodeFile;?>&OdFile=<?php echo $m_OdFile;?>"><H3><input type="Button" value="Restart Experiment"></H3></a>&nbsp;&nbsp;</td>

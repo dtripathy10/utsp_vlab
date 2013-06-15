@@ -339,7 +339,7 @@ elseif($file_ext2 == '.csv')
 
 ?>        
 
-		<td align="left"><button class = "btn2"> Previous </button></td>
+		<td align="left"><button class = "btn2"> Back </button></td>
 		<td align="left"><button class = "btn3"> Next </button></td>
 		</div>     
 
@@ -380,12 +380,9 @@ elseif($file_ext2 == '.csv')
 
 <br><br><br>		
 
-<table cellspacing=5>
-<tr>
-<td align="left"><button class = 'btn2'> Previous </button></td>
-<td align="left"><input type="submit" class=button value="Next" name="Submit" OnClick="return chk1()"></td>
-</tr>
-</table>		
+<button class = 'btn2'> Back </button>
+<span class="tab"></span>
+<input type="submit" class=button value="Next" name="Submit" OnClick="return chk1()">
 		<table cellspacing=5 width = "40%" align="center" border=0>
 		<tr>
    			<td align="center">&nbsp;&nbsp;<a href="SystemOptModDel.php?Exp=10&NodeFile=<?=$m_NodeFile?>&OdFile=<?=$m_OdFile?>"><H3><input type="Button" value="Restart Experiment"></H3></a>&nbsp;&nbsp;</td>

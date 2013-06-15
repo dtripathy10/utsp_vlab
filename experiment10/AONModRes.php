@@ -532,9 +532,11 @@ echo '<div id="scroller"><caption><b> Result </font></b></caption><table class="
  
 
 <input type="submit" class="x  pull-right" value="Add To Report" name="Submit" OnClick="return chk1();">
- <a href="AONModDel.php?Exp=8&NodeFile=<?=$m_NodeFile?>&ODFile=<?=$m_ODFile?>"><H3><input class="x pull-right" type="button" value="Restart Experiment"></H3></a>
+<br><br>
+<center>
+ <a href="AONModDel.php?Exp=8&NodeFile=<?=$m_NodeFile?>&ODFile=<?=$m_ODFile?>"><H3><input  type="button" value="Restart Experiment"></H3></a>
 		
-		
+</center>		
 </form>
 </div></div>
 <?php

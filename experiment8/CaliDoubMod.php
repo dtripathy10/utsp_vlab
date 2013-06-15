@@ -1,7 +1,7 @@
 <?php
 include_once("../util/system.php");
 include_once("header.php");
-getHeader(4);
+getHeader(4,"Calibration of Doubly Constrained Gravity Model","Trip Distribution");
 session_start();
 $UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment8/";
@@ -81,8 +81,8 @@ function chk2()
 </table>
 
 <div id ="default">
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()"></td>
-<td align="left"><input type="Reset" class=button value="Reset"></td>
+<input type="submit" class=button value="Submit" name="Submit" OnClick="return chk2()"><span class="tab"></span>
+<input type="Reset" class=button value="Reset">
 </div>
 
 <div id="user">
@@ -120,13 +120,9 @@ function chk2()
 </table>
 <br>
 
+<input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"><span class="tab"></span>
+<input type="Reset" class=button value="Reset">
 
-<table cellspacing=5>
-<tr>
-<td align="left"><input type="submit" class=button value="Submit" name="Submit" OnClick="return chk1()"></td>
-<!--<td align="left"><input type="Reset" class=button value="Reset"></td>-->
-</tr>
-</table>
  </div>
 </form>
 </center>

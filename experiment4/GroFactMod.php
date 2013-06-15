@@ -149,7 +149,7 @@ function chk2()
         <option value="" <?php if ($m_MethodVal == "") {?>selected <?php }?>>Select</option>
         <option value="UniformGFM" <?php if ($m_MethodVal == "UniformGFM") {?>selected <?php }?>>Uniform Growth Factor Method</option>
         <option value="SinglyGFM" <?php if ($m_MethodVal == "SinglyGFM") {?>selected <?php }?>>Singly Constrained Growth Factor Method</option>
-        <option value="FratarGFM" <?php if ($m_MethodVal == "FratarGFM") {?>selected <?php }?>>Fratar Growth Factor Method</option>       
+        <option value="FratarGFM" <?php if ($m_MethodVal == "FratarGFM") {?>selected <?php }?>>Doubly Constrained Growth Factor Method</option>       
     </select>   
     </td>
 </tr>

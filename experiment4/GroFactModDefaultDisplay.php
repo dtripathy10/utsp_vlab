@@ -310,6 +310,7 @@ if($m_MethodVal == "SinglyGFM" || $m_MethodVal=="FratarGFM" )
 {
 ?>
 <button class = 'btn1'> Next </button>
+<span class="tab"></span>
 <?php 
 }
 ?>
@@ -548,6 +549,7 @@ elseif($m_MethodVal == "FratarGFM")
         	echo "</tr>";
         	echo "</table></div><br><br>";
         	echo "<button class = 'btn15'>Back</button>";
+        	echo '<span class="tab"></span>';
         	echo "<button class = 'btn16'>Next</button>";
     		echo "</div>"; 
 
@@ -612,6 +614,7 @@ elseif($m_MethodVal == "FratarGFM")
         	echo "</table></div><br><br>"; 
 
         	echo "<button class = 'btn17'>Back</button>";
+        	echo '<span class="tab"></span>';
         	echo "<button class = 'btn18'>Next</button>";
     		echo "</div>";
         	
@@ -649,9 +652,14 @@ if($m_MethodVal == "FratarGFM")
                 <option value="Individual" >Individual Cell</option>
                 <option value="All">All Cell</option>                       
             </select>
-            <div id="demo">
-    			<a href="AccuracyHelp.php" toptions="group = links, shaded = 1,x=400,y=300 ,type = iframe, effect = switch, width = 600, height = 200, layout = quicklook">Click to know</a>
-    		</div>
+            <a href="javascript:Popup('AccuracyHelp.php')"><b><u>Click Here To Know</u></b></a>
+		<script type="text/javascript"> 			
+  			var stile = "top=350, left=800, width=400, height=200 status=no, menubar=no, toolbar=no scrollbar=no";
+     		function Popup(apri) 
+     		{
+        		window.open(apri, "", stile);
+     		}			
+		</script>	
            
             </td>
 </tr>
