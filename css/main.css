@@ -173,7 +173,7 @@ body {
 }
 #body{
     padding-bottom: 50px;
-    margin:10px 50px 30px 50px;
+    margin:10px 50px 0px 50px;
     overflow:hidden;
     position: relative;
 }
@@ -426,16 +426,15 @@ p {
     color: #FFFFFF;
 }
 .footer ul {
-    display: inline;
     margin-bottom: 20px;
+    display: inline;
     position: relative;
     padding: 0;
 }
 .footer li {
     padding: 0px 0px 0px 15px;
     position: relative;
-    float:right;
-    text-align: left;
+    display: inline;
     list-style: none;
 }
 
@@ -449,15 +448,6 @@ p {
     content: '';
     border: 1px solid #999;
 }
-.footer em {
-    position: relative;
-    padding-right: 10px;
-    text-align: center;
-    font-style: normal;
-    padding-left: 20px;
-}
-
-
 .footer a:hover{
     text-decoration: underline;
 }
