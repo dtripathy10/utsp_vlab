@@ -838,7 +838,7 @@ echo '<tr align="center" bgcolor="#EBF5FF">';
 <br><br>		
 		<table cellspacing=5 width = "40%" align="center" border=0>
 		<tr>
-   			<td align="center">&nbsp;&nbsp;<a href="SystemOptModDel.php&NodeFile=<?=$m_NodeFile?>&OdFile=<?=$m_OdFile?>"><H3><input type="button" value="Restart Experiment"></H3></a>&nbsp;&nbsp;</td>
+   			<td align="center">&nbsp;&nbsp;<a href="SystemOptModDel.php?NodeFile=<?=$m_NodeFile?>&OdFile=<?=$m_OdFile?>"><H3><input type="button" value="Restart Experiment"></H3></a>&nbsp;&nbsp;</td>
 		</tr>
 		</table>
 		<br>

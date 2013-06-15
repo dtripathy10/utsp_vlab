@@ -8,8 +8,8 @@ $UploadFile = $_SESSION['user'];
 $folder = USER_ROOT."/".$UploadFile."/Experiment12/";
 
 
-$m_NodeFile = $_GET['NodeFile'];
-$m_OdFile = $_GET['OdFile'];
+echo $m_NodeFile = $_GET['NodeFile'];
+echo $m_OdFile = $_GET['OdFile'];
         	
 $myFile1 = $folder.$m_NodeFile;
 $fh1 = fopen($myFile1, 'w') or die("can't open file");

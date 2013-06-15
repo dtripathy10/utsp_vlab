@@ -88,6 +88,24 @@ function chk1()
     	document.Frm.ConCriteria.focus();
     	return false ;
 	}   
+	if(document.Frm.alphaValue.value == "")
+	{
+    	alert ("Enter alpha value !!");
+    	document.Frm.alphaValue.focus();
+    	return false ;
+	}
+	if(document.Frm.alphaValue.value <0 || document.Frm.alphaValue.value>1 )
+	{
+		alert ("Enter the alpha value within the specied range !!");
+		document.Frm.alphaValue.focus();
+		return false ;
+	}
+	if(document.Frm.betaValue.value == "")
+	{
+    	alert ("Enter beta value !!");
+    	document.Frm.betaValue.focus();
+    	return false ;
+	}
 	document.Frm.action="SystemOptModRes.php?Exp=10";	
 }
 
@@ -223,7 +241,7 @@ echo "<div id ='OD'>";
 	</tr><tr>
 	<th  align="left" > Enter the &alpha; value </th>
 	<td align="left">
-	<input type="text" name="alphaValue" >
+	<input type="text" name="alphaValue" ><b>(Range: 0 &le; &alpha; &le; 1)</b>
 	</td>
 	</tr><tr>
 	<th  align="left" > Enter the &beta; value </th>
