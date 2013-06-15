@@ -11,7 +11,7 @@
 	2	-	 theory
 	3	-	 procedure
 	4 -  experiment
-	5 -  faq
+	5 -  FAQ
 	6	-	 selfevaluation
 
 */
@@ -54,7 +54,7 @@ ini_set('display_errors=on', 1);
       						<li ><a href="theory.php">Theory</a></li>
         					<li><a href="procedure.php">Procedure</a></li>
         					<li><a href="experiment.php">Experiment</a></li>
-        					<li><a href="faq.php">Faq</a></li>
+        					<li><a href="FAQ.php">FAQ</a></li>
         					<li><a href="selfevaluation.php">Self Evaluation</a></li>
           				</ul>
       				</div>
@@ -92,7 +92,7 @@ ini_set('display_errors=on', 1);
       						<li  class="active"><a href="theory.php">Theory</a></li>
         					<li><a href="procedure.php">Procedure</a></li>
         					<li><a href="experiment.php">Experiment</a></li>
-        					<li><a href="faq.php">Faq</a></li>
+        					<li><a href="FAQ.php">FAQ</a></li>
         					<li><a href="selfevaluation.php">Self Evaluation</a></li>
           				</ul>
       				</div>
@@ -125,7 +125,7 @@ ini_set('display_errors=on', 1);
       						<li ><a href="theory.php">Theory</a></li>
         					<li class="active"><a href="procedure.php">Procedure</a></li>
         					<li><a href="experiment.php">Experiment</a></li>
-        					<li><a href="faq.php">Faq</a></li>
+        					<li><a href="FAQ.php">FAQ</a></li>
         					<li><a href="selfevaluation.php">Self Evaluation</a></li>
           				</ul>
       				</div>
@@ -157,7 +157,7 @@ ini_set('display_errors=on', 1);
       						<li ><a href="theory.php">Theory</a></li>
         					<li><a href="procedure.php">Procedure</a></li>
         					<li class="active"><a href="experiment.php">Experiment</a></li>
-        					<li><a href="faq.php">Faq</a></li>
+        					<li><a href="FAQ.php">FAQ</a></li>
         					<li><a href="selfevaluation.php">Self Evaluation</a></li>
           				</ul>
       				</div>
@@ -189,7 +189,7 @@ ini_set('display_errors=on', 1);
       						<li ><a href="theory.php">Theory</a></li>
         					<li><a href="procedure.php">Procedure</a></li>
         					<li><a href="experiment.php">Experiment</a></li>
-        					<li class="active"><a href="faq.php">Faq</a></li>
+        					<li class="active"><a href="FAQ.php">FAQ</a></li>
         					<li><a href="selfevaluation.php">Self Evaluation</a></li>
           				</ul>
       				</div>
@@ -221,7 +221,7 @@ ini_set('display_errors=on', 1);
       						<li ><a href="theory.php">Theory</a></li>
         					<li><a href="procedure.php">Procedure</a></li>
         					<li><a href="experiment.php">Experiment</a></li>
-        					<li><a href="faq.php">Faq</a></li>
+        					<li><a href="FAQ.php">FAQ</a></li>
         					<li class="active"><a href="selfevaluation.php">Self Evaluation</a></li>
           				</ul>
       				</div>

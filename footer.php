@@ -21,15 +21,27 @@ function getFooter($id) {
       <a  href="#" class="scrollup"></a>
   <div class="footer">
     <hr/>
-    <em>Last updated in <span class="muted"><?php echo date('jS \of F Y h:i:s A');?></span></em>
-    <ul>
-      <li><a href="signup.php">Sign Up</a></li>
-        <li><a href="login.php">Login</a><span class="vline"/></li>
-       <li><a href="contact.php">Contact Us</a><span class="vline"/></li>
-      <li><a href="people.php">People</a><span class="vline"/></li>
-      <li><a href="experiments.php">Experiments</a><span class="vline"/></li>
-      <li ><a href="index.php">Home</a><span class="vline"/></li>      
+    <div>
+      <div style="float:left">
+   <ul>
+      <li><a href="https://www.facebook.com/utspvlab" target="_blank">Facebook</a><span class="vline"/></li>
+      <li><a href="https://plus.google.com/100878576331692025483/about" target="_blank">Google+</a></li> 
     </ul>
+  </div>
+   <div style="float:right">
+    <ul>
+            <li ><a href="index.php">Home</a><span class="vline"/></li>   
+                  <li><a href="experiments.php">Experiment List</a><span class="vline"/></li> 
+                        <li><a href="people.php">People</a><span class="vline"/></li>
+                               <li><a href="contact.php">Contact Us</a><span class="vline"/></li>
+      <li><a href="login.php">Login</a><span class="vline"/></li>
+      <li><a href="signup.php">Sign Up</a></li>
+
+
+
+  
+    </ul>
+    </div>
   </div>
 </div>
 	<?php
