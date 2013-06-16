@@ -31,10 +31,10 @@ function getFooter($id) {
             </div>
             <div style="float:right">
                 <ul>
-                    <li ><a href="index.php">Home</a><span class="vline"/></li>   
-                    <li><a href="experiments.php">Experiment List</a><span class="vline"/></li> 
-                    <li><a href="people.php">People</a><span class="vline"/></li>
-                    <li><a href="contact.php">Contact Us</a></li>
+                    <li ><a href="../login/index.php">Home</a><span class="vline"/></li>   
+                    <li><a href="../login/experiments.php">Experiment List</a><span class="vline"/></li> 
+                    <li><a href="../login/people.php">People</a><span class="vline"/></li>
+                    <li><a href="../login/contact.php">Contact Us</a></li>
 
 
 
