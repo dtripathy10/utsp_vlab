@@ -58,7 +58,7 @@
                     Indian Institute of Technology, Bombay<br/>
                     Web:<a href="http://www.civil.iitb.ac.in/~t0shital/"> http://www.civil.iitb.ac.in/~t0shital/</a></p>
   <div style="clear: both;"></div>
-  <img src="../images/photo.jpg" class="post-image"></img>
+  <img src="../images//amit.png" class="post-image"></img>
   <p class="information"><strong>Amit Kumar Singh</strong><br/>
                     Student, B.Tech(2009-2013)<br/>
                     Dept. of Civil Engineering<br/>
